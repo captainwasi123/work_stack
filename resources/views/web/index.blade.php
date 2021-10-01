@@ -244,37 +244,37 @@
 		</div>	
 		<div class="how-works-data">
 			<div class="row">
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
@@ -283,37 +283,37 @@
 			</div>
 		</br></br>
 			<div class="row">
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3>Home Cooked Food</h3>
