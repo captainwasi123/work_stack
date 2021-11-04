@@ -19,4 +19,6 @@ use Illuminate\Support\Facades\Route;
 
 			Route::get('/', 'webController@index')->name('home');
 			Route::get('/modal', 'webController@modal')->name('modal');
+			Route::get('/services', 'webController@services')->name('services');
+			Route::get('/comparison-table', 'webController@comparisontable')->name('comparisontable');
 		});

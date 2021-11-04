@@ -16,4 +16,12 @@ class webController extends Controller
 
     	return view('web.modal');
     }
+    function services(){
+
+    	return view('web.services');
+    }
+    function comparisontable(){
+
+        return view('web.comparison-table');
+    }
 }
