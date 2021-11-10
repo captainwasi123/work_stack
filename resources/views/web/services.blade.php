@@ -1,5 +1,5 @@
 @extends('web.includes.master')
-@section('title', 'Home')
+@section('title', 'Services')
 @section('addStyle')
 
 @endsection

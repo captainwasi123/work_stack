@@ -24,4 +24,20 @@ class webController extends Controller
 
         return view('web.comparison-table');
     }
+    function paymentoption(){
+
+        return view('web.payment-option');
+    }
+    function thankyoubooking(){
+
+        return view('web.thank-you-booking');
+    }
+    function orderpage(){
+
+        return view('web.order-page');
+    }
+    function pricingpackage(){
+
+        return view('web.pricing-package');
+    }
 }
