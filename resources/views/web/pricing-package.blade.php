@@ -4,70 +4,6 @@
 
 @endsection
 @section('content')
-<style type="text/css">
-	.comparison-sec1 h3
-	{
-		font-size: 25px;
-		font-weight: 600;
-	}
-	.pricing-pack-section1 h2 {
-    font-size: 34px;
-    font-weight: 600;
-}
-.pricing-pack-section1 h4 {
-    font-size: 20px;
-    padding-right: 5px;
-}
-.pricing-pack-section2 h3 {
-    font-weight: 600;
-    font-size: 15px;
-}
-.pricing-pack-section2 p {
-    font-size: 14px;
-}
-.tab-content {
-    border: 1px solid #b8b8b8;
-}
-a.nav-link {
-    border: 1px solid #b8b8b8 !important;
-    border-bottom: 3px solid #b8b8b8 !important;
-}
-a.nav-link.active {
-    border-bottom: 3px solid #f4b423 !important;
-}
-.nav-tabs li a {
-    font-size: 20px;
-    font-weight: 600;
-}
-.nav-tabs li a {
-    padding: 10px 34px;
-}
-
-.pricing-pack-section-btn {
-    font-size: 16px;
-    font-weight: 600;
-}
-.pricing-pack-section-btn {
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px 20px;
-    border-radius: 25px;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    width: 90%;
-    color: white;
-}
-.pricing-pack-section-btn:hover	{
-	color: #186780;
-}
-.pricing-pack-section-btn2 {
-	font-size: 16px;
-    text-align: center;
-    width: 100%;
-    font-weight: 600;
-}
-</style>
 
 <!-- Comparison Table Section Starts Here -->
 <section class="comparison-sec">
@@ -81,14 +17,14 @@ a.nav-link.active {
 				<div class="pricing-pack-section1">
 					<h2 class="no-margin blue-color">Home Maintenance & Cleaning</h2>
 					<div class="row pad-top-10">
-						<div class="col-md-2">
-							<img alt="product-image" src="{{URL::to('/public/website')}}/images/boy.png"/> 
+						<div class="col-md-1">
+							<img alt="product-image" src="{{URL::to('/public/website')}}/images/boy.png"/>  
 						</div>
-						<div class="col-md-4 no-pad" style="border-right: 1px solid #636363;">
-							<h4 class="no-margin pad-top-10">Top Rated Saller</h4>
+						<div class="col-md-3 no-pad" style="border-right: 1px solid #636363;">
+							<h4 class="no-margin">Top Rated Saller</h4>
 						</div>
-						<div class="col-md-4 pad-top-10">
-							<span class="rating-section "><i class="fa fa-star star-on"> 5.0 </i> (17)</span>
+						<div class="col-md-4" style="padding-top: 3px;">
+							<span class="rating-section"><i class="fa fa-star star-on"> 5.0 </i> (17)</span>
 						</div>
 						<div class="col-md-12 pad-top-10">
 							<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg" width="100%" />
@@ -158,24 +94,79 @@ a.nav-link.active {
 	</div>
 </section>
 
-
 <section>
-	<div class="container pad-top-50">
+	<div class="container pad-top-10">
 		<div class="row">
 			<div class="col-md-7">
 				<div class="pricing-pack-section-3">
-					<h2>About This Maintenance & Cleaning</h2>
-					<h3>Please contact me before ordering</h3>
+					<h2 class="no-margin blue-color pad-bot-20">About This Maintenance & Cleaning</h2>
+					<h3 class="no-margin blue-color pad-bot-10">Please contact me before ordering</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<h3 class="no-margin blue-color pad-bot-10">We work on the Latest Maintenance & Cleaning</h3>
+					<ul>
+						<li>Lorem ipsum dolor</li>
+						<li>Lorem ipsum dolor</li>
+						<li>Lorem ipsum dolor</li>
+						<li>Lorem ipsum dolor</li>
+					</ul>
+					<h4 class="no-margin blue-color pad-bot-10">When you want this service?</h4>
+					<form>
+						<div class="form-check-inline pricing-pack-section-3-form">
+						  <label class="form-check-label">
+						    <input type="radio" class="form-check-input" name="optradio">Available
+						  </label>
+						</div>
+						<div class="form-check-inline pricing-pack-section-3-form">
+						  <label class="form-check-label">
+						    <input type="radio" class="form-check-input" name="optradio">Not Available
+						  </label>
+						</div>
+						<div class="row pad-top-20">
+							<div class="col-md-6">
+								<div class="pricing-pack-section-3-form">
+									<label>Choose Time:</label>
+									<input type="text" class="pricing-pack-section-3-form-input" placeholder="00:00:00" name="">
+								</div>
+							</div>							
+							<div class="col-md-6">
+								<div class="pricing-pack-section-3-form">
+									<label>Service Hours:</label>
+									<input type="text" class="pricing-pack-section-3-form-input" placeholder="Select Hours"  name="">
+								</div>
+							</div>
+							<div class="col-md-12 pad-top-10 pad-bot-10">
+								<div class="pricing-pack-section-3-form">
+									<label>Select Adress? </label>
+									<input type="text" name="" class="pricing-pack-section-3-form-input" placeholder="Type Address">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="pricing-pack-section-3-form">
+									<label>Special Comment:</label>
+									<input type="text" name="" class="pricing-pack-section-3-form-input" placeholder="Type Comment">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="pricing-pack-section-3-form">
+									<label>Detail Instruction:</label>
+									<input type="text" name="" class="pricing-pack-section-3-form-input" placeholder="Type Instruction">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="pricing-pack-section-3-form pad-top-20">
+									<input type="submit" name="" class="pricing-pack-section-3-form-btn" value="Book Service">
+								</div>
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-
 <!-- Comparison Table Section Ends Here -->
-
 
 <section>
 	<div class="container pad-top-120 pad-bot-100">
@@ -278,7 +269,5 @@ a.nav-link.active {
 		</div>
 	</div>
 </section>
-
-
 
 @endsection

@@ -1399,3 +1399,344 @@ td.no-visib img {
     padding: 0px 10px;
     outline: none;
 }
+.pricing-pack-section-3 h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.pricing-pack-section-3-form label {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.pricing-pack-section-3-form-input {
+    width: 100%;
+    background: #f1f1f1;
+    border: none;
+    padding: 14px 15px;
+    color: black;
+    outline: none;
+    font-size: 12px;
+}
+.pricing-pack-section-3-form-btn {
+    background: #f28c00;
+    font-size: 14px;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #f28c00;
+    float: right;
+}
+.comparison-sec1 h3
+{
+        font-size: 25px;
+        font-weight: 600;
+}
+.pricing-pack-section1 h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+.pricing-pack-section1 h4 {
+    font-size: 18px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.pricing-pack-section2 h3 {
+    font-weight: 600;
+    font-size: 15px;
+}
+.pricing-pack-section2 p {
+    font-size: 14px;
+}
+.tab-content {
+    border: 1px solid #b8b8b8;
+}
+a.nav-link {
+    border: 1px solid #b8b8b8 !important;
+    border-bottom: 3px solid #b8b8b8 !important;
+}
+a.nav-link.active {
+    border-bottom: 3px solid #f4b423 !important;
+}
+.nav-tabs li a {
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-tabs li a {
+    padding: 10px 34px;
+}
+
+.pricing-pack-section-btn {
+    font-size: 16px;
+    font-weight: 600;
+}
+.pricing-pack-section-btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    color: white;
+}
+.pricing-pack-section-btn:hover {
+    color: #186780;
+}
+.pricing-pack-section-btn2 {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+.pricing-pack-section-3 h2 {
+    font-size: 34px;
+    font-weight: 700;
+}
+.pricing-pack-section-3 h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.pricing-pack-section-3 p {
+    font-size: 16px;
+}
+.pricing-pack-section-3 ul li::marker {
+    color: #f5b524;
+}
+.pricing-pack-section-3 ul li {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+
+
+/*Mobile Devices*/
+@media screen and (max-width:519px) and (min-width:320px) { 
+
+.banner-form h3 {
+    font-size: 30px;
+}
+.banner-form {
+    padding-top: 0px !important;
+}
+.form-search1 input {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+.form-search2 input {
+    font-size: 14px;
+    padding: 6px 18px;
+}
+.form-search2 {
+    width: 22%;
+}
+.form-search1 {
+    width: 78%;
+}
+.banner-form {
+    padding-right: 30px !important;
+}
+.search-catagory button {
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-right: 0px;
+}
+.pad-mob-left-10 {
+    padding-left: 15px !important;
+}
+.search-catagory-section1 h4 {
+    font-size: 16px;
+}
+.search-catagory {
+    padding-bottom: 30px;
+}
+.logo a img {
+    width: 100%;
+}
+.sign-buttons a {
+    font-size: 11px;
+    padding: 0px 0px;
+}
+.sign-up-btn {
+    padding: 5px 6px 3px 6px !important;
+    font-size: 10px !important;
+}
+.sign-in-btn {
+    padding: 5px 6px 3px 6px !important;
+    margin-left: 0px;
+    font-size: 10px !important;
+}
+.sec-head h4 {
+    font-size: 22px;
+}
+.sec-head {
+    padding-bottom: 20px !important;
+}
+.slick-slide img {
+    width: 100%;
+}
+.section-mobile {
+    padding-top: 50px !important;
+}
+.how-works-data {
+    padding-bottom: 60px !important;
+}
+.section-2-data {
+    max-width: 100%;
+}
+.section-2-data h4 {
+    font-size: 30px;
+}
+.marketplace-sec h3 {
+    font-size: 12px;
+}
+.footer-list {
+    padding-top: 30px;
+}
+.thankyou-book-sec-1 h2 {
+    font-size: 18px;
+}
+.thankyou-book-sec-1 h2 img {
+    width: 20%;
+}
+.product_quantity {
+    padding-top: 5px !important;
+}
+.thankyou-book-sec-2 h3 {
+    text-align: center;
+    font-size: 18px;
+}
+.thankyou-book-sec-2 h3 span {
+    font-size: 21px;
+}
+.thankyou-book-sec-4 {
+    padding-left: 0px !important;
+    padding-top: 20px;
+}
+.thankyou-book-sec-4 p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.thankyou-book-sec-5 p {
+    font-size: 16px;
+}
+.thankyou-book-sec-8 {
+    font-size: 18px;
+    padding: 7px 15px;
+    margin-top: 10px;
+}
+.compare-table {
+    overflow-x: auto;
+}
+.comparision-table-btn {
+    padding: 5px;
+    width: 100%;
+    font-size: 12px;
+}
+.compare-table tr th {
+    padding: 20px 15px;
+}
+.compare-table tbody tr td {
+    padding: 0px 10px;
+    font-size: 12px;
+}
+}
+
+}
+
+
+@media screen and (max-width:992px) and (min-width:768px) { 
+.logo {
+    padding-top: 5px;
+}
+.logo a img {
+    width: 75%;
+}
+.banner-form {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+}
+.banner-form h3 {
+    font-size: 35px;
+}
+.pad-mob-left-10 {
+    padding-left: 15px !important;
+}
+.search-catagory button {
+    padding: 2px 13px;
+}
+.section-mobile {
+    padding-top: 50px !important;
+}
+.section-2-data h4 {
+    font-size: 36px;
+}
+.section-2-data {
+    max-width: 100%;
+}
+.services-inner-btn1 {
+    font-size: 9px;
+    padding: 4px 6px;
+}
+.services-inner-btn2 {
+    font-size: 9px;
+    padding: 4px 6px;
+    float: none;
+}
+.services-inner {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.rating-section {
+    font-size: 13px;
+}
+.rating-section i {
+    font-size: 13px;
+}
+.price-section {
+    font-size: 12px;
+    padding-top: 6px;
+}
+.services-inner-1 img {
+    padding-left: 0px;
+    width: 35%;
+}
+.services-inner-des {
+    font-size: 12px;
+}
+.services-inner-btn {
+    width: 100%;
+    text-align: center;
+}
+.footer-list h3 {
+    font-size: 18px;
+}
+.footer-list a {
+    font-size: 14px;
+}
+.footer-section {
+    margin: 0px !important;
+}
+.thankyou-book-sec-1 h2 {
+    font-size: 25px;
+}
+.thankyou-book-sec-2 h3 span {
+    font-size: 20px;
+}
+.thankyou-book-sec-2 h3 {
+    font-size: 18px;
+}
+.thankyou-book-sec-1 h2 img {
+    width: 20%;
+}
+.product_quantity {
+    padding-top: 10px !important;
+}
+.thankyou-book-sec-2 {
+    padding-top: 15px;
+}
+.thankyou-book-sec-4 {
+    padding-left: 0px !important;
+    padding-top: 20px;
+}
+}

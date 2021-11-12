@@ -100,7 +100,7 @@
 
 
 <section>
-	<div class="container pad-top-120 pad-bot-100">
+	<div class="container section-mobile pad-top-120 pad-bot-100">
 		<div class="sec-head pad-bot-30">
 			<h4 class="no-margin blue-color">Other Services </h4>
 		</div>	

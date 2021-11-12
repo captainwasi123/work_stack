@@ -17,7 +17,6 @@
 @endsection
 @section('content')
 
-
 <!-- Banner Section Starts Here -->
 <section class="banner-sec pad-top-70">
 	<div class="container">
@@ -40,7 +39,7 @@
 									<h4 class="blue-color">Popular: </h4>
 								</div>									
 							</div>
-							<div class="col-lg-10 no-pad">
+							<div class="col-lg-10 no-pad pad-mob-left-10">
 								<button>Books</button>	
 								<button>Tutor</button>
 								<button>Grocery</button>
@@ -59,7 +58,7 @@
 </section>
 
 <section>
-	<div class="container pad-top-120">
+	<div class="container section-mobile pad-top-120">
 		<div class="sec-head pad-top-10 pad-bot-50">
 			<h4 class="no-margin blue-color"> What do you need done? </h4>
 		</div>
@@ -111,7 +110,7 @@
 </section>
 
 <section>
-	<div class="container pad-top-120">
+	<div class="container section-mobile pad-top-120">
 		<div class="sec-head pad-bot-30">
 			<h4 class="no-margin blue-color"> Near by Services </h4>
 		</div>	
@@ -191,27 +190,27 @@
 </section>
 
 <section>
-	<div class="container pad-top-120">
+	<div class="container section-mobile pad-top-120">
 		<div class="sec-head pad-bot-30">
 			<h4 class="no-margin blue-color"> Customer Looking for </h4>
 		</div>
 		<div class="how-works-data pad-bot-100">
 			<div class="row">
-				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">				
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 pad-bot-20">				
 					<img alt="work-image" src="{{URL::to('/public/website')}}/images/customer1.png"/>
 					<div class="customer-sec">
 						<h3 class="no-margin pad-top-10 pad-bot-10">Lorem ipsum dolor sit amet</h3>
 						<p class="no-margin"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 					</div>
 				</div>
-				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">				
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 pad-bot-20">				
 					<img alt="work-image" src="{{URL::to('/public/website')}}/images/customer2.png"/>
 					<div class="customer-sec">
 						<h3 class="no-margin pad-top-10 pad-bot-10">Lorem ipsum dolor sit amet</h3>
 						<p class="no-margin"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 					</div>
 				</div>
-				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">				
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 pad-bot-20">				
 					<img alt="work-image" src="{{URL::to('/public/website')}}/images/customer3.png"/>
 					<div class="customer-sec">
 						<h3 class="no-margin pad-top-10 pad-bot-10">Lorem ipsum dolor sit amet</h3>
@@ -228,7 +227,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-lg-8 col-sm-4 col-xs-12">	
-					<div class="section-2-data pad-top-30">
+					<div class="section-2-data pad-top-30 pad-bot-30">
 						<h4 class="no-margin pad-bot-20 blue-color"> Customers Looking for the Best</h4>
 						<p class="no-margin"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit </p>
 						<button type="button" class="btn section-2-btn m-t-20">SIGN IN</button>
@@ -243,86 +242,84 @@
 </section>
 
 <section>
-	<div class="container pad-top-120 pad-bot-80">
+	<div class="container section-mobile pad-top-120 pad-bot-80">
 		<div class="sec-head pad-bot-50">
 			<h4 class="no-margin blue-color"> Explore the marketplace  </h4>
 		</div>	
 			<div class="row">
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-			</div>
-			<div class="row pad-top-50">
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
+				<div class="col-md-4 col-lg-2 col-sm-6 col-6 pad-bot-20">
 					<div class="marketplace-sec">
 						<img alt="work-image" src="{{URL::to('/public/website')}}/images/marketplace1.png"/>
 						<h3 class="no-margin pad-top-10">Home Cooked Food</h3>
 					</div>
 				</div>
-			</div>			
+			</div>	
 		</div>
 </section>
 

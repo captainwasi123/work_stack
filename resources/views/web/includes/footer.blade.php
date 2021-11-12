@@ -17,7 +17,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-8 col-lg-2 col-sm-12 col-xs-12">
+			<div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
 				<div class="footer-list">
 					<h3 class="m-b-30"> Catagories </h3>
 					<a href=""> Book </a>
@@ -26,7 +26,7 @@
 					<a href=""> Tutor </a>
 				</div>
 			</div>
-			<div class="col-md-8 col-lg-3 col-sm-12 col-xs-12">
+			<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
 				<div class="footer-list">
 					<h3 class="m-b-30"> Support </h3>
 					<a href=""> Help & Support </a>
@@ -35,7 +35,7 @@
 					<a href=""> Buying On SmilBee </a>
 				</div>
 			</div>
-			<div class="col-md-8 col-lg-3 col-sm-12 col-xs-12">
+			<div class="col-md-2 col-lg-3 col-sm-12 col-xs-12">
 				<div class="footer-list">
 					<h3 class="m-b-30"> Login </h3>
 					<a href=""> Inquires</a>

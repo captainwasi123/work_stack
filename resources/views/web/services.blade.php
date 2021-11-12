@@ -27,7 +27,7 @@
 									<h4 class="blue-color">Popular: </h4>
 								</div>									
 							</div>
-							<div class="col-lg-10 no-pad">
+							<div class="col-lg-10 no-pad pad-mob-left-10">
 								<button>Books</button>	
 								<button>Tutor</button>
 								<button>Grocery</button>
@@ -47,21 +47,21 @@
 
 
 <section>
-	<div class="container pad-top-120 pad-bot-100">
+	<div class="container section-mobile pad-top-120 pad-bot-100">
 		<div class="sec-head pad-bot-30">
 			<h4 class="no-margin blue-color">Services </h4>
 		</div>	
 		<div class="services">
 			<div class="row">
-			 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 services-box">
+			 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 services-box pad-bot-30">
 			 		<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 				 	<div class="services-inner pad-top-30 pad-bot-10 pad-left-20 pad-right-20">				 		
 				 		<div class="row">
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-7 col-6">
 				 				<img alt="product-image" src="{{URL::to('/public/website')}}/images/boy.png"/> 
 				 				<span class="services-title">Home</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-5 col-6">
 				 				<span class="services-inner-1 pad-top-10">
 				 					<img src="{{URL::to('/public/website')}}/images/heart-icon.png">
 				 					<img src="{{URL::to('/public/website')}}/images/calendar-icon2.jpg">
@@ -70,10 +70,10 @@
 				 			<div class="col-md-12 pad-bot-20">
 				 				<p class="no-margin pad-top-10 services-inner-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>				 				
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-5 col-5">
 				 				<span class="rating-section"><i class="fa fa-star star-on"> 5.0 </i> (17)</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-7 col-7">
 				 				<h5 class="price-section no-margin"> Starting At $1000 </h5> 
 				 			</div>
 				 			<div class="col-md-12">
@@ -86,15 +86,15 @@
 				 		</div>
 				 	</div>
 			 	</div>
-			 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 services-box">
+			 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 services-box pad-bot-30">
 			 		<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 				 	<div class="services-inner pad-top-30 pad-bot-10 pad-left-20 pad-right-20">				 		
 				 		<div class="row">
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-7 col-6">
 				 				<img alt="product-image" src="{{URL::to('/public/website')}}/images/boy.png"/> 
 				 				<span class="services-title">Home</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-5 col-6">
 				 				<span class="services-inner-1 pad-top-10">
 				 					<img src="{{URL::to('/public/website')}}/images/heart-icon.png">
 				 					<img src="{{URL::to('/public/website')}}/images/calendar-icon2.jpg">
@@ -103,10 +103,10 @@
 				 			<div class="col-md-12 pad-bot-20">
 				 				<p class="no-margin pad-top-10 services-inner-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>				 				
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-5 col-5">
 				 				<span class="rating-section"><i class="fa fa-star star-on"> 5.0 </i> (17)</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-7 col-7">
 				 				<h5 class="price-section no-margin"> Starting At $1000 </h5> 
 				 			</div>
 				 			<div class="col-md-12">
@@ -119,15 +119,15 @@
 				 		</div>
 				 	</div>
 			 	</div>
-			 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 services-box">
+			 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 services-box pad-bot-30">
 			 		<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 				 	<div class="services-inner pad-top-30 pad-bot-10 pad-left-20 pad-right-20">				 		
 				 		<div class="row">
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-7 col-6">
 				 				<img alt="product-image" src="{{URL::to('/public/website')}}/images/boy.png"/> 
 				 				<span class="services-title">Home</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-5 col-6">
 				 				<span class="services-inner-1 pad-top-10">
 				 					<img src="{{URL::to('/public/website')}}/images/heart-icon.png">
 				 					<img src="{{URL::to('/public/website')}}/images/calendar-icon2.jpg">
@@ -136,10 +136,10 @@
 				 			<div class="col-md-12 pad-bot-20">
 				 				<p class="no-margin pad-top-10 services-inner-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>				 				
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-5 col-5">
 				 				<span class="rating-section"><i class="fa fa-star star-on"> 5.0 </i> (17)</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-7 col-7">
 				 				<h5 class="price-section no-margin"> Starting At $1000 </h5> 
 				 			</div>
 				 			<div class="col-md-12">
