@@ -25,4 +25,26 @@ use Illuminate\Support\Facades\Route;
 			Route::get('/thank-you-booking', 'webController@thankyoubooking')->name('thankyoubooking');
 			Route::get('/order-page', 'webController@orderpage')->name('orderpage');
 			Route::get('/pricing-package', 'webController@pricingpackage')->name('pricingpackage');
+			
+		});
+
+	//User
+
+		Route::namespace('user')->prefix('user')->group(function(){
+
+			Route::get('/', 'userController@index')->name('user.myaccount');
+			Route::get('/personal-details', 'userController@personaldetails')->name('user.personaldetails');
+			Route::get('/reset-password', 'userController@resetpassword')->name('user.resetpassword');
+			Route::get('/transaction', 'userController@transaction')->name('user.transaction');
+			Route::get('/favorites', 'userController@favorites')->name('user.favorites');
+			Route::get('/messages', 'userController@messages')->name('user.messages');
+
+		});
+
+
+	//Admin
+
+		Route::namespace('admin')->prefix('admin')->group(function(){
+
+			Route::get('/', 'adminController@index');
 		});

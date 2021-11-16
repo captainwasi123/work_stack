@@ -40,4 +40,8 @@ class webController extends Controller
 
         return view('web.pricing-package');
     }
+    function myaccount(){
+
+        return view('web.my-account');
+    }
 }

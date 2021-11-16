@@ -797,7 +797,7 @@ section.page-title h3 a img {
     padding: 0px 50px;
     margin-top: 30px;
 }
-/*.form-field4 {
+.form-field4 {
     float: left;
         max-width: 550px;
         position: relative;
@@ -854,7 +854,7 @@ section.page-title h3 a img {
     font-weight: 400;
     letter-spacing: 0.5px;
     font-size: 13px;
-}*/
+}
 
 .square-1 {
     border-radius: 0px;

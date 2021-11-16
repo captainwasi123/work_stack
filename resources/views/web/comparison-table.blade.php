@@ -4,13 +4,6 @@
 
 @endsection
 @section('content')
-<style type="text/css">
-	.comparison-sec1 h3
-	{
-		font-size: 25px;
-		font-weight: 600;
-	}
-</style>
 
 <!-- Comparison Table Section Starts Here -->
 <section class="comparison-sec">
