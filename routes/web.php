@@ -38,6 +38,9 @@ use Illuminate\Support\Facades\Route;
 			Route::get('/transaction', 'userController@transaction')->name('user.transaction');
 			Route::get('/favorites', 'userController@favorites')->name('user.favorites');
 			Route::get('/messages', 'userController@messages')->name('user.messages');
+			Route::get('/smiles', 'userController@smiles')->name('user.smiles');
+			Route::get('/my-order-upcoming', 'userController@myorderupcoming')->name('user.myorderupcoming');
+			Route::get('/my-order-deliver', 'userController@myorderdeliver')->name('user.myorderdeliver');
 
 		});
 

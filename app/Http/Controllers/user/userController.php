@@ -32,5 +32,18 @@ class userController extends Controller
 
         return view('user.messages');
     }
+    function smiles(){
+
+        return view('user.smiles');
+    }
+    function myorderupcoming(){
+
+        return view('user.my-order-upcoming');
+    }
+    function myorderdeliver(){
+
+        return view('user.my-order-deliver');
+    }
+
 
 }

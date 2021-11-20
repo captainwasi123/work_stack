@@ -2076,56 +2076,75 @@ a.show-pass {
 
 .all-person {
     width: 100%;
-    padding: 0px 6px;
+    /*padding: 0px 10px;*/
     max-height: 500px;
-    overflow-x: auto;
+    overflow-x: hidden;
+
+}
+.all-person-main {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #dedede;
+    padding-left: 15px;
 }
 
-.all-person div {
+/*.all-person div {
     border-bottom: 1px solid #dedede;
     padding: 10px 0px;
-}
+}*/
 
 .message-section1 img{
     border-radius: 100%;
+    width: 90%;
 }
-
-.all-person div h5 b {
-    display: block;
+.message-section1 h5 {
+    font-size: 16px;
     font-weight: 600;
-    letter-spacing: 0.3px;
-    margin-bottom: 5px;
 }
 
 .all-person div h5 span {
     display: block;
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 0.3px;
-    font-weight: 300;
+    font-weight: 400;
+    padding-top: 5px;
 }
-
-.chat-screen-sec {
+/*.chat-screen-sec {
     float: left;
     width: 100%;
-}
+}*/
 .chat-screen-head {
-    float: left;
+/*    float: left;*/
     width: 100%;
     border: 1px solid #dcd7d7;
     padding: 18px 20px;
     box-shadow: 1px 1px 10px #d8d8d8;
     border-radius: 5px;
-    margin-bottom: 25px;
+/*    margin-bottom: 25px;*/
 }
 .chat-screen-head h3 {
-    margin: 0px 0px 0px 0px;
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 0.3px;
     font-weight: 600;
+    padding-top: 5px;
 }
+.message-actions {
+    float: right;
+}
+/*.message-actions a {
+    color: #f28d01;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-top: -4px;
+    margin-bottom: -5px;
+}*/
 
-
-.chat-screen-head h3 a {
+.message-actions a img {
+    width: 35px;
+}
+/*.chat-screen-head h3 a {
     float: right;
     color: #f28d01;
     font-size: 14px;
@@ -2133,23 +2152,10 @@ a.show-pass {
     letter-spacing: 0.4px;
     margin-top: -4px;
     margin-bottom: -5px;
-}
-
-.chat-screen-head h3 a img {
-    width: 35px;
-}
-
-.chat-screen-data {
-    float: left;
-    width: 100%;
-}
-
+}*/
 
 .sender-message {
-    float: left;
     width: 100%;
-    position: relative;
-    margin-bottom: 8px;
 }
 
 
@@ -2199,8 +2205,6 @@ a.show-pass {
 }
 
 .rec-message {
-    float: left;
-    width: 100%;
     text-align: right;
 }
 .rec-message h5 {
@@ -2223,7 +2227,6 @@ a.show-pass {
 
 .sender-message p {
     font-size: 12px;
-    margin: 0px;
     padding-left: 100px;
     color: grey;
     letter-spacing: 0.3px;
@@ -2232,7 +2235,6 @@ a.show-pass {
 
 .rec-message p {
     font-size: 12px;
-    margin: 0px;
     padding-right: 100px;
     color: grey;
     letter-spacing: 0.3px;
@@ -2254,7 +2256,6 @@ a.show-pass {
 }
 
 .chat-screen-data {
-    float: left;
     max-height: 500px;
     width: 100%;
     overflow-x: hidden;
@@ -2268,7 +2269,7 @@ a.show-pass {
 
 .chat-screen-data::-webkit-scrollbar , .account-over::-webkit-scrollbar , .all-person::-webkit-scrollbar
 {
-    width: 8px;
+    width: 5px;
     background-color: silver;
 }
 
@@ -2276,25 +2277,20 @@ a.show-pass {
 {
     border-radius: 2px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #f28d01;
+    background-color: #F4B423;
 }
 
 .message-profile {
-    float: left;
-    width: 100%;
     text-align: center;
-    padding: 0px 10px;
 }
 
 .message-profile img {
     width: 120px;
     border-radius: 100%;
-    margin-bottom: 10px;
 }
 
 
 .message-profile h4 {
-    color: black;
     font-weight: 600;
     letter-spacing: 0.6px;
     font-size: 20px;
@@ -2305,28 +2301,266 @@ a.show-pass {
     font-weight: 400;
     letter-spacing: 0.5px;
     font-size: 16px;
-    margin-bottom: 20px;
 }
 
 .message-profile p {
     color: #8a8a8a;
     font-weight: 300;
     letter-spacing: 0.5px;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 14px;
 }
 .shad1 {
     box-shadow: 1px 1px 10px #d8d8d8;
     border-radius: 5px;
     padding: 5px 20px;
     border: none;
+    width: 100%;
 }
 .shad1 button {
     top: 8px;
     right: 5px;
 }
 
+.points-head h3 {
+    font-size: 28px;
+    line-height: 40px;
+}
 
+.points-head h3 b {
+    font-size: 45px;
+    vertical-align: bottom;
+}
+.points-head p {
+    letter-spacing: 0.6px;
+}
+
+
+.points-box {
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    padding: 20px 18px;
+    position: relative;
+    box-shadow: 1px 1px 10px #dedede;
+    border-radius: 4px;
+}
+
+.points-box h4 {
+    font-size: 26px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+}
+
+
+.points-box h6 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.points-box p {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.points-off {
+
+    width: 100%;
+    position: absolute;
+    background: rgb(242 141 1 / 0.5);
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    padding: 50px 0px;
+}
+.points-off h5 {
+    background: white;
+    padding: 40px 35px;
+}
+
+.points-off h5 b {
+    display: block;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+/*.orders-filters {
+    float: left;
+    width: 100%;
+    margin-bottom: 35px;
+}*/
+/*.orders-filters-data .add-field1 {
+    margin: 0px;
+}
+.orders-filters-data .add-field1 button {
+    padding: 9px 35px;
+}*/
+
+
+/*.sort-by2 {
+    float: left;
+    width: 100%;
+}*/
+
+.sort-by2 span {
+/*    display: inline-block;*/
+    color: grey;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+   /* margin-right: 10px;*/
+}
+.sort-by2 select {
+    /*display: inline-block;*/
+    border: none;
+    padding: 2px 0px;
+    border-bottom: 1px solid black;
+    width: 120px;
+    outline: none;
+}
+/*.all-orders {
+    float: left;
+    width: 100%;
+}*/
+.orders-filters-data {
+ /*   float: left;
+    width: 100%;*/
+    text-align: right;
+}
+/*.orders-filters-data .add-field1 {
+    margin: 0px;
+}*/
+
+.orders-filters-data-btn
+{   
+    background: none;
+    border: 1px solid #b1654b;
+    padding: 9px 40px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.orders-filters-data-btn.active
+{ 
+
+    background:#186780;
+    border: 1px solid #f4b423;
+    color: white;
+}
+
+.orders-filters-data .add-field1 button {
+    padding: 9px 35px;
+}
+/*.order-status div h5 span {
+    margin-right: 10px;
+    font-weight: 600;
+}*/
+
+.order-status h5 {
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    color: #6ac259;
+}
+.order-status h5 b {
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.order-details {
+/*    float: left;
+    width: 100%;*/
+    background: #efefef;
+    border-radius: 10px;
+/*    overflow: hidden;*/
+}
+.order-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+.order-text1 h4 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.order-text1 h5 {
+    margin: 0px 0px 12px 0px;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.order-text1 h5 {
+    margin: 0px 0px 12px 0px;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.order-text1 h5 {
+    margin: 0px 0px 12px 0px;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.order-text2 h3 {
+    margin: 10px 0px 0px 0px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.order-text2 h5 {
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.order-text3 p {
+    color: black;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    padding-right: 30px;
+    margin-left: -30px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+.order-status2
+{
+    text-align: right;
+}
+.order-status2 a {
+    font-weight: 500;
+    margin-left: 15px;
+    border-bottom: 1px solid;
+    font-size: 14px;
+}
+
+
+/*.order-status div {
+    float: left;
+}*/
+/*.order-status {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}*/
+.add-field1 button {
+    background: none;
+    border: 1px solid #b1654b;
+    padding: 9px 50px;
+    position: relative;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    font-size: 15px;
+}
 /*Mobile Devices*/
 @media screen and (max-width:519px) and (min-width:320px) { 
 
