@@ -1900,6 +1900,9 @@ a.show-pass {
 .bg-red {
     background: red;
 }
+.col-red {
+    color: #f7685a !important;
+}
 
 
 .sort-by select {
@@ -2483,56 +2486,35 @@ a.show-pass {
     border-radius: 5px;
 }
 .order-text1 h4 {
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.5px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .order-text1 h5 {
-    margin: 0px 0px 12px 0px;
-    color: black;
     font-weight: 400;
     letter-spacing: 0.5px;
-}
-.order-text1 h5 {
-    margin: 0px 0px 12px 0px;
-    color: black;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-}
-.order-text1 h5 {
-    margin: 0px 0px 12px 0px;
-    color: black;
-    font-weight: 400;
-    letter-spacing: 0.5px;
+    font-size: 16px;
 }
 .order-text2 h3 {
-    margin: 10px 0px 0px 0px;
-    color: black;
     font-weight: 600;
     letter-spacing: 0.5px;
 }
 .order-text2 h5 {
-    color: black;
     font-weight: 400;
     letter-spacing: 0.5px;
-    font-size: 15px;
-    margin-top: 20px;
+    font-size: 18px;
 }
 .order-text3 p {
-    color: black;
-    font-size: 13px;
+    font-size: 16px;
     letter-spacing: 0.4px;
-    padding-right: 30px;
-    margin-left: -30px;
     line-height: 19px;
-    margin-bottom: 8px;
 }
 .order-status2
 {
     text-align: right;
 }
 .order-status2 a {
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 15px;
     border-bottom: 1px solid;
     font-size: 14px;
