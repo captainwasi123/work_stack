@@ -1,0 +1,25 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="{{URL::to('/public/admin')}}/js/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="{{URL::to('/public/admin')}}/js/jquery.slimscroll.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/sidebarmenu.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/sticky-kit.min.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/jquery.sparkline.min.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/custom.min.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/raphael-min.js"> </script>
+<!-- <script src="{{URL::to('/public/admin')}}/js/morris-data.js"> </script> -->
+<script src="{{URL::to('/public/admin')}}/js/morris.min.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/dashboard4.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/jQuery.style.switcher.js"> </script>
+
+<!-- <script src="{{URL::to('/public/admin')}}/js/functions.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/footable.all.min.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/footable-init.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/waves.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/flot-data.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/jasny-bootstrap.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/jquery.PrintArea.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/jsgrid-init.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/mask.init.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/perfect-scrollbar.min.js"> </script>
+<script src="{{URL::to('/public/admin')}}/js/sticky-kit.min.js"> </script> -->

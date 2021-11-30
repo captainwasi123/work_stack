@@ -1,0 +1,343 @@
+body {
+ 	/*font-family: 'Montserrat', sans-serif;*/
+    color:#000;
+}
+body .container {
+    width: 100%;
+    max-width: 1170px;
+}
+body img {
+   max-width: 100%;
+}
+section , header , footer {
+    float: left;
+    width: 100%;
+}
+.yellow-color{
+    color: #F4B423 !important;
+}
+.yellow-bg{
+    background: #F4B423 !important;
+}
+.blue-color{
+    color: #186780 !important;
+}
+.blue-bg{
+    background: #186780 !important;
+}
+.text-center
+{
+    text-align: center !important;
+}
+section , header , footer {
+    float: left;
+    width: 100%;
+}
+a {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    cursor: pointer !important;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.pad-top-10 {
+    padding-top: 10px !important
+}
+.pad-top-20 {
+    padding-top: 20px !important
+}
+.pad-top-30 {
+    padding-top: 30px !important
+}
+.pad-top-40 {
+    padding-top: 40px !important
+}
+.pad-top-50 {
+    padding-top: 50px !important
+}
+.pad-top-60 {
+    padding-top: 60px !important
+}
+.pad-top-70 {
+    padding-top: 70px !important
+}
+.pad-top-80 {
+    padding-top: 80px !important
+}
+.pad-top-90 {
+    padding-top: 90px !important
+}
+.pad-top-100 {
+    padding-top: 100px !important
+}
+.pad-top-120 {
+    padding-top: 120px !important
+}
+.pad-top-130 {
+    padding-top: 130px !important
+}
+.pad-top-160 {
+    padding-top: 160px !important
+}
+.pad-top-180 {
+    padding-top: 180px !important
+}
+.pad-bot-10 {
+    padding-bottom: 10px !important
+}
+.pad-bot-20 {
+    padding-bottom: 20px !important
+}
+.pad-bot-30 {
+    padding-bottom: 30px !important
+}
+.pad-bot-40 {
+    padding-bottom: 40px !important
+}
+.pad-bot-50 {
+    padding-bottom: 50px !important
+}
+.pad-bot-60 {
+    padding-bottom: 60px !important
+}
+.pad-bot-80 {
+    padding-bottom: 80px !important
+}
+.pad-bot-90 {
+    padding-bottom: 90px !important
+}
+.pad-bot-100 {
+    padding-bottom: 100px !important
+}
+.pad-bot-150 {
+    padding-bottom: 150px !important
+}
+.pad-bot-200 {
+    padding-bottom: 200px !important
+}
+.pad-left-10
+{
+    padding-left: 10px !important
+}
+.pad-left-20
+{
+    padding-left: 20px !important
+}
+.pad-left-30
+{
+    padding-left: 30px !important
+}
+.pad-left-40
+{
+    padding-left: 40px !important
+}
+.pad-left-50
+{
+    padding-left: 50px !important
+}
+.pad-left-60
+{
+    padding-left: 60px !important
+}
+.pad-left-70
+{
+    padding-left: 70px !important
+}
+.pad-left-80
+{
+    padding-left: 80px !important
+}
+.pad-left-90
+{
+    padding-left: 90px !important
+}
+.pad-right-10
+{
+    padding-right: 10px !important
+}
+.pad-right-20
+{
+    padding-right: 20px !important
+}
+.pad-right-30
+{
+    padding-right: 30px !important
+}
+.pad-right-40
+{
+    padding-right: 40px !important
+}
+.pad-right-50
+{
+    padding-right: 50px !important
+}
+.pad-right-60
+{
+    padding-right: 60px !important
+}
+.pad-right-70
+{
+    padding-right: 70px !important
+}
+.pad-right-80
+{
+    padding-right: 80px !important
+}
+.m-b-10 {
+    margin-bottom: 10px !important
+}
+.m-b-20 {
+    margin-bottom: 20px !important
+}
+.m-b-25 {
+    margin-bottom: 25px !important
+}
+.m-b-30 {
+    margin-bottom: 30px !important
+}
+.m-b-40 {
+    margin-bottom: 40px !important
+}
+.m-b-50 {
+    margin-bottom: 50px !important
+}
+.m-b-60 {
+    margin-bottom: 60px !important
+}
+.m-t-5 {
+    margin-top: 5px !important
+}
+.m-t-10 {
+    margin-top: 10px !important
+}
+.m-t-15 {
+    margin-top: 15px !important
+}
+.m-t-20 {
+    margin-top: 20px !important
+}
+.m-t-30 {
+    margin-top: 30px !important
+}
+.m-t-40 {
+    margin-top: 40px !important
+}
+.m-t-50 {
+    margin-top: 50px !important
+}
+.m-t-60 {
+    margin-top: 60px !important
+}
+.m-t-70 {
+    margin-top: 70px !important
+}
+.m-t-80 {
+    margin-top: 80px !important
+}
+.m-l-20 {
+    margin-left: 20px !important;
+}
+.m-l-30 {
+    margin-left: 30px !important;
+}
+.m-l-60 {
+    margin-left: 60px !important;
+}
+.m-l-80 {
+    margin-left: 80px !important;
+}
+.m-r-10 {
+    margin-right: 10px !important;
+}
+.m-r-20 {
+    margin-right: 20px !important;
+}
+.m-r-30 {
+    margin-right: 30px !important;
+}
+.m-r-50 {
+    margin-right: 50px !important;
+}
+.m-r-60 {
+    margin-right: 50px !important;
+}
+.no-margin {
+    margin:0px !important;
+}
+.no-pad {
+    padding:0px !important;
+}
+button {
+    outline: none !important;
+}
+.yellow-light-color
+{
+    background: #f5b524c2;
+}
+i.fa-star {
+    color:#9c9c9c;
+}
+
+.dasboard-card, .card-body
+{
+    border-radius: 10px;
+}
+.dasboard-card2, .card-body
+{
+    border-radius: 10px;
+}
+.dasboard-card h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.dasboard-card h6 {
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.sidebar-nav>ul>li>a.active {
+    background: #186780;
+    color: white;
+}
+.sidebar-nav ul li a.active i, .sidebar-nav ul li a:hover i {
+    color: #ffffff;
+}
+
+.sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
+    background: #186780;
+    color: white;
+}
+.topbar {
+    background: #ffffff;
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
+    color: #186780 !important;
+}
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link:hover {
+    color: #186780 !important;
+}
+
+.dasboard-card2 .card-body .d-flex.flex-wrap {
+    padding: 10px 20px 0px 20px;
+    background: #186780;
+    border-radius: 10px 10px 0px 0px;
+}
+.dasboard-card2 h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+/*Mobile Devices*/
+@media screen and (max-width:519px) and (min-width:320px) { 
+
+
+}
+
+
+@media screen and (max-width:992px) and (min-width:768px) { 
+
+}

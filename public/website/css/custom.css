@@ -1903,8 +1903,6 @@ a.show-pass {
 .col-red {
     color: #f7685a !important;
 }
-
-
 .sort-by select {
     width: 150px;
     border: none;
@@ -1914,7 +1912,6 @@ a.show-pass {
     outline: none;
     border-radius: 5px;
 }
-
 .transactions-table {
     width: 100%;
     overflow-x: auto;
