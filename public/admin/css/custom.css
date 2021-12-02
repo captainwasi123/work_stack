@@ -331,6 +331,38 @@ i.fa-star {
     font-size: 18px;
     font-weight: 300;
 }
+
+.dasboard-card2 .card-header {
+    border-radius: 10px 10px 0px 0px;
+}
+.dasboard-card3 h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+.dasboard-card3 h5 {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+}
+.dasboard-card3 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.dasboard-card3 p {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+.dasboard-card3 {
+    border-bottom: 1px solid silver;
+}
+
 /*Mobile Devices*/
 @media screen and (max-width:519px) and (min-width:320px) { 
 

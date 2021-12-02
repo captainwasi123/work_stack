@@ -11,7 +11,7 @@
 <script src="{{URL::to('/public/admin')}}/js/morris.min.js"> </script>
 <script src="{{URL::to('/public/admin')}}/js/dashboard4.js"> </script>
 <script src="{{URL::to('/public/admin')}}/js/jQuery.style.switcher.js"> </script>
-
+<script src="{{URL::to('/public/admin')}}/js/jquery.dataTables.min.js"></script>
 <!-- <script src="{{URL::to('/public/admin')}}/js/functions.js"> </script>
 <script src="{{URL::to('/public/admin')}}/js/footable.all.min.js"> </script>
 <script src="{{URL::to('/public/admin')}}/js/footable-init.js"> </script>
