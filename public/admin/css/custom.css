@@ -362,14 +362,147 @@ i.fa-star {
 .dasboard-card3 {
     border-bottom: 1px solid silver;
 }
+.table-striped tbody tr:nth-of-type(odd) {
+    background: #ffffff;
+}
+.page-breadcum {
+    background: #fff;
+    padding: 10px 35px;
+}
+.page-breadcum h3 {
+    font-size: 25px;
+    color: #186780;
+    font-weight: 600;
+}
+.form-input-custom
+{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    background: #e8f0fd;
+    border: 1px solid silver;
+    border-radius: 8px;
+    outline: none;
+}
+.form-textarea-custom
+{
+    width: 100%;
+    height: 80px !important;
+    padding: 0px 10px;
+    background: #e8f0fd;
+    border: 1px solid silver;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+.form-file-custom {
+    width: 100%;
+    height: 50px;
+    padding: 9px 10px;
+    background: #e8f0fd;
+    border: 1px solid silver;
+    border-radius: 8px;
+    outline: none;
+}
+.form-label-custom {
+    padding-bottom: 5px;
+}
+.form-group {
+    margin-bottom: 0px;
+}
+.form-btn-custom {
+    color: white;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    letter-spacing: 0.7px;
+    background: #025064;
+    border-radius: 30px;
+    min-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+.form-btn-custom:hover {
+    background:#F5B524;
+    color: white;
+    border:none;
+}
+table.dataTable thead .sorting:after
+{
+    display: none;
+}
+.order-history-btn {
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.order-history-btn a {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    padding: 8px 20px;
+    font-weight: 400;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.order-history-btn2 {
+    color: white !important;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    padding: 6px 15px;
+    font-weight: 400;
+    border-radius: 30px;
+}
 
 /*Mobile Devices*/
 @media screen and (max-width:519px) and (min-width:320px) { 
 
 
+.dasboard-card3 h3 {
+    font-size: 14px;
+    padding-top: 0px;
+    line-height: 16px;
+}
+.dasboard-card3 h5 {
+    font-size: 12px;
+}
+.dasboard-card3 h4 {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dasboard-card3 p {
+    font-size: 10px;
+}
+.dasboard-card3 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 }
 
 
 @media screen and (max-width:992px) and (min-width:768px) { 
-
+.dasboard-card3 h3 {
+    font-size: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    line-height: 1.3;
+}
+.dasboard-card3 h5 {
+    font-size: 14px;
+}
+.dasboard-card3 h4 {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.dasboard-card3 p {
+    font-size: 10px;
+}
+.dasboard-card3 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 }

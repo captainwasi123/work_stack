@@ -50,4 +50,11 @@ use Illuminate\Support\Facades\Route;
 		Route::namespace('admin')->prefix('admin')->group(function(){
 
 			Route::get('/', 'adminController@index');
+			Route::get('/edit-profile', 'adminController@editprofile')->name('user.editprofile');
+			Route::get('/all-products', 'adminController@allproducts')->name('user.allproducts');
+			Route::get('/transaction', 'adminController@transaction')->name('user.transaction');
+			Route::get('/order-history', 'adminController@orderhistory')->name('user.orderhistory');
+			Route::get('/manage-shipping', 'adminController@manageshipping')->name('user.manageshipping');
+			Route::get('/add-product', 'adminController@addproduct')->name('user.addproduct');
+			Route::get('/create-attribute', 'adminController@createattribute')->name('user.createattribute');
 		});
