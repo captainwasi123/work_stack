@@ -2788,8 +2788,72 @@ ul.nav.nav-tabs {
     font-size: 18px;
 }
 
+/*modal*/
 
-
+.custom-modal {
+    padding: 30px;
+}
+.inner-modal-side-one h3 {
+    font-size: 28px;
+}
+.inner-modal-side-one p {
+    font-size: 14px;
+    padding: 10px 0px !important;
+} 
+.custom-modal1-form {
+    padding: 30px 20px !important;
+}
+.row.pad-top-30.pad-right-30 {
+    padding-right: 0px !important;
+}
+.inner-modal-side-one {
+    padding: 30px 20px;
+}
+.modal-dialog {
+    margin: 0 auto;
+    padding: 10px;
+}
+.custom-modal2-form {
+    padding: 30px 20px !important;
+}
+.verify-account-data-input {
+    width: 35px;
+    height: 35px;
+}
+.verify-account-data h4 {
+    font-size: 25px;
+}
+.service-catagory-header h2 {
+    font-size: 28px;
+}
+.service-catagory-header h3 {
+    font-size: 18px;
+}
+.service-popup img {
+    width: 25%;
+}
+.verify-address-data h2 {
+    font-size: 25px;
+}
+.promo-code-sec h4 {
+    font-size: 25px;
+}
+.coupon-field-btn {
+    font-size: 14px;
+}
+.verify-address-data h4 {
+    font-size: 25px;
+}
+.form-field2 textarea {
+    height: 100px !important;
+}
+.time-slot-data h4 {
+    font-size: 23px;
+}
+.form-field2-btn:nth-child(1) {
+    margin-bottom: 10px;
+    width: 100%;
+}
 /*user area*/
 
 .dispute-status {
@@ -3048,6 +3112,8 @@ label.blue-color img {
 .pricing-pack-section-3 h2 {
     font-size: 30px;
 }
+
+
 /*user area*/
 
 .account-handlers ul li a {
@@ -3110,4 +3176,26 @@ label.blue-color img {
 .user-sell-btn {
     margin-right: 10px;
 }
+
+
+/*modal */
+
+.inner-modal-side-one h3 {
+    font-size: 30px;
+}
+.inner-modal-side-one p {
+    font-size: 14px;
+}
+
+.custom-modal {
+    padding: 30px;
+}
+/*.inner-modal-side-one {
+    padding: 30px 20px;
+}*/
+.modal-dialog {
+    margin: 0 auto;
+    padding: 10px;
+}
+
 }
