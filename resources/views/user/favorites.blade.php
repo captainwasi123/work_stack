@@ -8,12 +8,12 @@
 <!-- Comparison Table Section Starts Here -->
 <section class="comparison-sec">
 	<div class="comparison-sec1 yellow-bg pad-top-20 pad-bot-20">
-		<h3 class="blue-color no-margin text-center"> My Account </h3>
+		<h3 class="blue-color no-margin text-center"> Favorites </h3>
 	</div>
 
 	<div class="container pad-top-50 pad-bot-50">
 		<div class="row">
-			<div class="col-md-3 col-lg-3 col-sm-4 col-xs-12">
+			<div class="col-md-4 col-lg-3 col-sm-4 col-xs-12 pad-bot-50">
 				<div class="account-handlers">
 					<ul>
 						<li class="active"> <a href=""> <i class="fa fa-folder"> </i> My Disputes </a> </li>
@@ -24,10 +24,10 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-9 col-lg-9 col-sm-8 col-xs-12">
+			<div class="col-md-8 col-lg-9 col-sm-8 col-xs-12">
 				<div class="account-over pad-right-20"> 	
 				 	<div class="row">
-					 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+					 	<div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
 						 	<div class="fav-box">
 							 	<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 							 	<div class="fav-head pad-left-10 pad-right-10 pad-top-10 pad-bot-20">
@@ -52,7 +52,7 @@
 							 	</div>
 						 	</div>
 					 	</div>
-					 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+					 	<div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
 						 	<div class="fav-box">
 							 	<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 							 	<div class="fav-head pad-left-10 pad-right-10 pad-top-10 pad-bot-20">
@@ -77,7 +77,7 @@
 							 	</div>
 						 	</div>
 					 	</div>
-					 	<div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+					 	<div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
 						 	<div class="fav-box">
 							 	<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 							 	<div class="fav-head pad-left-10 pad-right-10 pad-top-10 pad-bot-20">

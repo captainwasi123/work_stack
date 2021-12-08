@@ -4,19 +4,19 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title> @yield('title') | WorkStack </title>
-	@include('web.includes.style')
+	@include('user.includes.style')
 	@yield('addStyle')
 </head>
 
 <body>
 
-	@include('web.includes.header')
+	@include('user.includes.header')
 
 	@yield('content')
 
-	@include('web.includes.footer')
+	@include('user.includes.footer')
 
-	@include('web.includes.script')
+	@include('user.includes.script')
 	
 </body>
 </html>

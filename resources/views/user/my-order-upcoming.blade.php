@@ -42,16 +42,15 @@
 					<div class="order-box pad-top-30 pad-bot-30">
 						<div class=" pad-bot-20">
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6">
 									<div class="order-status">
 										<h5 class="no-margin"> 
 										<span class="col-green pad-right-10"> <img alt="check-icon" src="{{URL::to('/public/website')}}/images/tick-icon.svg" width="20"/> DELIVERED  </span>
 										<b> On Thu, 3 Oct </b> 
 									</h5>
-									</div>
-									
+									</div>									
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6">
 									<div class="order-status2">
 										<a href="#" class="blue-color"> Raise Dispute </a>
 										<a href="#" class="yellow-color"> Give your Review & Rating </a>
@@ -93,16 +92,15 @@
 					<div class="order-box pad-top-10 pad-bot-30">
 						<div class=" pad-bot-20">
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6">
 									<div class="order-status">
 										<h5 class="no-margin"> 
 										<span class="col-green pad-right-10"> <img alt="check-icon" src="{{URL::to('/public/website')}}/images/tick-icon.svg" width="20"/> DELIVERED  </span>
 										<b> On Thu, 3 Oct </b> 
 									</h5>
-									</div>
-									
+									</div>									
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6">
 									<div class="order-status2">
 										<a href="#" class="blue-color"> Raise Dispute </a>
 										<a href="#" class="yellow-color"> Give your Review & Rating </a>

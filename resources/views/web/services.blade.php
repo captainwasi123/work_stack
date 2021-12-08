@@ -39,7 +39,9 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
-				<img src="{{URL::to('/public/website')}}/images/header-banner.png"/>
+				<div class="header-image">
+					<img src="{{URL::to('/public/website')}}/images/header-banner.png"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -47,7 +49,7 @@
 
 
 <section>
-	<div class="container section-mobile pad-top-120 pad-bot-100">
+	<div class="container section-mobile pad-top-60 pad-bot-50">
 		<div class="sec-head pad-bot-30">
 			<h4 class="no-margin blue-color">Services </h4>
 		</div>	

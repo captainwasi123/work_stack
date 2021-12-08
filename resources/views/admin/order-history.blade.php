@@ -1,18 +1,24 @@
 @extends('admin.includes.master')
 @section('title', 'Order History | Admin')
 @section('addStyle')
-
+<style type="text/css">
+@media screen and (max-width:992px) and (min-width:768px) { 
+    .page-breadcum {
+    padding: 10px 0px 10px 35px;
+}
+}
+</style>
 @endsection
 @section('content')
 
 <div class="page-wrapper pad-top-70">
             <div class="row" style="background: white;">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-4">
                     <div class="page-breadcum">
                         <h3 class="no-margin">Order History</h3>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-8">
                     <div class="order-history-btn">
                         <a href="" class="yellow-bg">Download All Invoice Slip</a>
                         <a href="" class="blue-bg">Download All Shipping Slip</a>

@@ -1507,7 +1507,10 @@ a.nav-link.active {
     font-size: 16px;
     padding-bottom: 5px;
 }
-
+.thankyou-book-sec-1 h2 img {
+    width: 15%;
+    border-radius: 5px;
+}
 
 
 
@@ -2540,6 +2543,42 @@ a.show-pass {
     -webkit-transition: all 0.3s ease-in-out;
     font-size: 15px;
 }
+.user-sell-btn {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 8px 40px;
+    color: #186780;
+    background: #f5b524;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+.user-sell-btn:hover{
+    color:#f5b524;
+    background: #186780;
+}
+.user-sell-icon{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 0px 10px;
+    color: #186780;
+}
+.user-sell-icon i:hover{
+    color: #f5b524;
+}
+.user-sell-nav{
+    float: right;
+}
+.user-sell-name {
+    font-weight: 600;
+    color: #186780;
+    padding: 10px 25px;
+}
+ .custom-nav-dashboard a {
+    border: none !important;
+}
+
 /*Mobile Devices*/
 @media screen and (max-width:519px) and (min-width:320px) { 
 
@@ -2589,6 +2628,10 @@ a.show-pass {
 }
 .sign-up-btn {
     padding: 5px 6px 3px 6px !important;
+    font-size: 10px !important;
+}
+.sign-up-btn-user {
+    padding: 7px 20px 7px 20px !important;
     font-size: 10px !important;
 }
 .sign-in-btn {
@@ -2648,11 +2691,11 @@ a.show-pass {
     font-size: 16px;
 }
 .thankyou-book-sec-5 p {
-    font-size: 16px;
+    font-size: 14px;
 }
 .thankyou-book-sec-8 {
-    font-size: 18px;
-    padding: 7px 15px;
+    font-size: 13px;
+    padding: 7px 10px;
     margin-top: 10px;
 }
 .compare-table {
@@ -2670,8 +2713,175 @@ a.show-pass {
     padding: 0px 10px;
     font-size: 12px;
 }
+.banner-sec img {
+    width: 60%;
+}
+.header-image {
+    text-align: center;
+}
+.section2-img img {
+    width: 60%;
+}
+.section2-img {
+    text-align: center;
+}
+.steps-text {
+    padding: 10px 0px !important;
+}
+.comparison-sec1 {
+    padding: 15px 15px;
+}
+label.blue-color img {
+    width: 25%;
+}
+.payment-summary {
+    margin-top: 20px;
+}
+.summary-text {
+    padding: 15px 10px 0px 30px;
+}
+.services-box {
+    margin-bottom: 20px;
+}
+.price-section {
+    text-align: right;
+}
+.thankyou-book-sec p {
+    font-size: 16px;
+    max-width: 100%;
+}
+.thankyou-book-sec-7 p {
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.thankyou-book-sec-6 h2 {
+    font-size: 25px;
+}
+.thankyou-book-sec-7 img {
+    width: 25%;
+}
+.pricing-pack-section1 h2 {
+    font-size: 30px;
+}
+.pricing-pack-section1 h4 {
+    font-size: 17px;
+    padding-top: 15px;
+}
+.rate {
+    padding-top: 9px !important;
+    display: block;
+}
+.nav-tabs li a {
+    padding: 10px 21px;
+}
+.nav-tabs li a {
+    font-size: 16px;
+}
+ul.nav.nav-tabs {
+    padding-top: 20px;
+}
+.pricing-pack-section-3 h2 {
+    font-size: 25px;
+}
+.pricing-pack-section-3 h3 {
+    font-size: 18px;
 }
 
+
+
+/*user area*/
+
+.dispute-status {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.account-handlers ul li a {
+    font-size: 14px;
+}
+.personal-detail-section {
+    padding-left: 0px !important;
+}
+.update-profile {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+}
+.profile-image {
+    text-align: center;
+}
+.avatar-upload {
+    margin-right: 0px !important;
+    padding-bottom: 10px;
+}
+.total-paid {
+    border-radius: 5px;
+    padding: 15px 0px 15px 55px;
+}
+.total-paid i {
+    left: 25px;
+    top: 20px;
+    width: 36px;
+    height: 36px;
+    padding-top: 8px;
+    font-size: 20px;
+}
+.total-paid h5 {
+    font-size: 12px;
+}
+.total-paid h5 p {
+    font-size: 18px;
+}
+.sort-by {
+    text-align: left;
+    padding-top: 0px !important;
+}
+.sort-by span {
+    font-size: 18px;
+}
+.fav-box {
+    margin-bottom: 20px;
+}
+.account-over {
+    padding-right: 0px !important;
+}
+.message-section1 h5 {
+    padding-top: 10px;
+}
+.orders-filters-data {
+    text-align: center;
+    padding-top: 20px;
+}
+.orders-filters-data-btn {
+    padding: 9px 36px;
+}
+.order-status {
+    padding-bottom: 10px;
+}
+.order-text1 {
+    padding: 0px 20px;
+}
+.order-text2
+{
+    padding: 0px 20px;
+}
+.order-text3 {
+    padding: 0px 20px;
+}
+.user-sell-btn {
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-right: 0px;
+}
+.user-sell-icon {
+    font-size: 16px;
+    padding: 0px 4px;
+}
+.user-sell-name {
+    display: none;
+}
+.nav-mobile {
+    display: none;
+}
 }
 
 
@@ -2714,8 +2924,7 @@ a.show-pass {
     float: none;
 }
 .services-inner {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding: 10px !important;
 }
 .rating-section {
     font-size: 13px;
@@ -2762,11 +2971,143 @@ a.show-pass {
 .product_quantity {
     padding-top: 10px !important;
 }
-.thankyou-book-sec-2 {
-    padding-top: 15px;
-}
 .thankyou-book-sec-4 {
     padding-left: 0px !important;
-    padding-top: 20px;
+}
+.summary-text p {
+    font-size: 12px;
+}
+label.blue-color img {
+    width: 20%;
+}
+.summary2-text h2 {
+    font-size: 16px;
+}
+.summary2-text h3 {
+    font-size: 14px;
+}
+.summary2-text h4 {
+    font-size: 14px;
+}
+.payment-confirm-btn {
+    font-size: 16px;
+}
+.payment-data h3 {
+    font-size: 22px;
+}
+.steps-text h5 {
+    font-size: 15px;
+}
+.comparision-table-btn {
+    width: 100%;
+    font-size: 15px;
+}
+.thankyou-book-sec-4 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.thankyou-book-sec-3 {
+    padding-bottom: 20px;
+}
+.pricing-pack-section1 h2 {
+    font-size: 25px;
+}
+.pricing-pack-section1 h4 {
+    padding-top: 13px;
+}
+.rate {
+    padding-top: 10px;
+    display: block;
+}
+.nav-tabs li a {
+    padding: 10px 14px;
+}
+.nav-tabs li a {
+    font-size: 16px;
+}
+.tab-content {
+    padding: 20px 10px 10px 10px!important;
+}
+.pricing-pack-section2 p {
+    font-size: 12px;
+    padding-bottom: 10px !important;
+}
+.pricing-pack-section-btn {
+    font-size: 14px;
+    padding: 10px 16px;
+    width: 75%;
+}
+.pricing-pack-section-btn2 {
+    font-size: 14px;
+    padding-top: 10px !important;
+}
+.pricing-pack-section2 h3 {
+    font-size: 14px;
+    padding-top: 0px !important;
+}
+.pricing-pack-section-3 h2 {
+    font-size: 30px;
+}
+/*user area*/
+
+.account-handlers ul li a {
+    font-size: 14px;
+}
+.personal-detail-section {
+    padding-left: 0px !important;
+}
+.update-profile {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+}
+.sort-by {
+    text-align: left;
+    padding-top: 2px !important;
+}
+.sort-by span {
+    font-size: 18px;
+}
+.sort-by select {
+    width: 100%;
+}
+.account-over {
+    padding-right: 0px !important;
+}
+.fav-box {
+    margin-bottom: 20px;
+}
+.points-off h5 {
+    padding: 20px 15px;
+}
+.order-text1 h4 {
+    padding-top: 8px !important;
+    font-size: 18px;
+}
+.order-text1 h5 {
+    font-size: 11px;
+}
+.order-text2 h5 {
+    padding-top: 10px !important;
+    font-size: 15px;
+}
+.order-text2 h3 {
+    font-size: 20px;
+}
+.order-text3 {
+    padding-top: 8px !important;
+}
+.order-text3 p {
+    font-size: 12px;
+    padding-bottom: 8px !important;
+}
+.section2-img {
+    padding-top: 25px;
+}
+.user-sell-icon {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.user-sell-btn {
+    margin-right: 10px;
 }
 }

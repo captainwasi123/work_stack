@@ -13,7 +13,7 @@
 
 	<div class="container pad-top-50 pad-bot-50">
 		<div class="row">
-			<div class="col-md-3 col-lg-3 col-sm-4 col-xs-12">
+			<div class="col-md-4 col-lg-3 col-sm-4 col-xs-12 pad-bot-50">
 				<div class="account-handlers">
 					<ul>
 						<li> <a href=""> <i class="fa fa-folder"> </i> My Disputes </a> </li>
@@ -24,7 +24,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-9 col-lg-9 col-sm-8 col-xs-12">
+			<div class="col-md-8 col-lg-9 col-sm-8 col-xs-12">
 				<div class="personal-detail-section pad-left-50">
 				 	<div class="profile-image pad-bot-10">
 					 	<div class="avatar-upload">
@@ -48,31 +48,31 @@
 						 		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 							 		<div class="form-field4">
 								 		<p class="no-margin pad-bot-10"> First Name </p>
-								 		<input type="text" placeholder="" name="first-name">
+								 		<input type="text" placeholder="First Name" name="first-name">
 							 		</div>
 						 		</div>
 						 		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 							 		<div class="form-field4">
 								 		<p class="no-margin pad-bot-10"> Last Name </p>
-								 		<input type="text" placeholder="" name="last-name">
+								 		<input type="text" placeholder="Last Name" name="last-name">
 							 		</div>
 						 		</div>
 						 		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 							 		<div class="form-field4">
 								 		<p class="no-margin pad-bot-10"> Email Address </p>
-								 		<input type="email" placeholder="" name="email-address">
+								 		<input type="email" placeholder="Email Address" name="email-address">
 							 		</div>
 						 		</div>
 						 		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 							 		<div class="form-field4">
 								 		<p class="no-margin pad-bot-10"> Mobile Number </p>
-								 		<input type="number" placeholder="" name="mobile-number">
+								 		<input type="number" placeholder="Mobile Number" name="mobile-number">
 							 		</div>
 						 		</div>
 						 		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 							 		<div class="form-field4" style="max-width:100%">
-								 		<p class="no-margin pad-bot-10"> Complete Address </p>
-								 		<textarea name="address"></textarea>
+								 		<p class="no-margin pad-bot-10">Address </p>
+								 		<textarea name="address">Enter Address</textarea>
 							 		</div>
 						 		</div>
 						 		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">

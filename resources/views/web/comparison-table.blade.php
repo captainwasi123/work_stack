@@ -93,7 +93,7 @@
 
 
 <section>
-	<div class="container section-mobile pad-top-120 pad-bot-100">
+	<div class="container section-mobile pad-top-50 pad-bot-60">
 		<div class="sec-head pad-bot-30">
 			<h4 class="no-margin blue-color">Other Services </h4>
 		</div>	
@@ -103,23 +103,23 @@
 			 		<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 				 	<div class="services-inner pad-top-30 pad-bot-10 pad-left-20 pad-right-20">				 		
 				 		<div class="row">
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-8 col-6">
 				 				<img alt="product-image" src="{{URL::to('/public/website')}}/images/boy.png"/> 
 				 				<span class="services-title">Home</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-4 col-6">
 				 				<span class="services-inner-1 pad-top-10">
 				 					<img src="{{URL::to('/public/website')}}/images/heart-icon.png">
 				 					<img src="{{URL::to('/public/website')}}/images/calendar-icon2.jpg">
 				 				</span>
 				 			</div>
-				 			<div class="col-md-6 pad-top-20">
+				 			<div class="col-lg-6 col-md-5 col-5 pad-top-20">
 				 				<span class="rating-section"><i class="fa fa-star star-on"> 5.0 </i> (17)</span>
 				 			</div>
-				 			<div class="col-md-6 pad-top-20">
+				 			<div class="col-lg-6 col-md-7 col-7 pad-top-20">
 				 				<h5 class="price-section no-margin"> Starting At $1000 </h5> 
 				 			</div>
-				 			<div class="col-md-12">
+				 			<div class="col-lg-12 col-md-12 col-12">
 				 				<hr>
 								<div class="services-inner-btn">
 							 		<a href="" class="services-inner-btn1"> SELECT & PROCEED </a>
@@ -133,23 +133,23 @@
 			 		<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 				 	<div class="services-inner pad-top-30 pad-bot-10 pad-left-20 pad-right-20">				 		
 				 		<div class="row">
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-8 col-6">
 				 				<img alt="product-image" src="{{URL::to('/public/website')}}/images/boy.png"/> 
 				 				<span class="services-title">Home</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-4 col-6">
 				 				<span class="services-inner-1 pad-top-10">
 				 					<img src="{{URL::to('/public/website')}}/images/heart-icon.png">
 				 					<img src="{{URL::to('/public/website')}}/images/calendar-icon2.jpg">
 				 				</span>
 				 			</div>
-				 			<div class="col-md-6 pad-top-20">
+				 			<div class="col-lg-6 col-md-5 col-5 pad-top-20">
 				 				<span class="rating-section"><i class="fa fa-star star-on"> 5.0 </i> (17)</span>
 				 			</div>
-				 			<div class="col-md-6 pad-top-20">
+				 			<div class="col-lg-6 col-md-7 col-7 pad-top-20">
 				 				<h5 class="price-section no-margin"> Starting At $1000 </h5> 
 				 			</div>
-				 			<div class="col-md-12">
+				 			<div class="col-lg-12 col-md-12 col-12">
 				 				<hr>
 								<div class="services-inner-btn">
 							 		<a href="" class="services-inner-btn1"> SELECT & PROCEED </a>
@@ -163,23 +163,23 @@
 			 		<img alt="product-image" src="{{URL::to('/public/website')}}/images/work-image1.jpg"/>
 				 	<div class="services-inner pad-top-30 pad-bot-10 pad-left-20 pad-right-20">				 		
 				 		<div class="row">
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-8 col-6">
 				 				<img alt="product-image" src="{{URL::to('/public/website')}}/images/boy.png"/> 
 				 				<span class="services-title">Home</span>
 				 			</div>
-				 			<div class="col-md-6">
+				 			<div class="col-lg-6 col-md-4 col-6">
 				 				<span class="services-inner-1 pad-top-10">
 				 					<img src="{{URL::to('/public/website')}}/images/heart-icon.png">
 				 					<img src="{{URL::to('/public/website')}}/images/calendar-icon2.jpg">
 				 				</span>
 				 			</div>
-				 			<div class="col-md-6 pad-top-20">
+				 			<div class="col-lg-6 col-md-5 col-5 pad-top-20">
 				 				<span class="rating-section"><i class="fa fa-star star-on"> 5.0 </i> (17)</span>
 				 			</div>
-				 			<div class="col-md-6 pad-top-20">
+				 			<div class="col-lg-6 col-md-7 col-7 pad-top-20">
 				 				<h5 class="price-section no-margin"> Starting At $1000 </h5> 
 				 			</div>
-				 			<div class="col-md-12">
+				 			<div class="col-lg-12 col-md-12 col-12">
 				 				<hr>
 								<div class="services-inner-btn">
 							 		<a href="" class="services-inner-btn1"> SELECT & PROCEED </a>

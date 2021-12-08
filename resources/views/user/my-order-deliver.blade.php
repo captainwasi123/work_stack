@@ -39,7 +39,7 @@
 
 			<div class="col-md-12 col-lg-12 col-sm-4 col-xs-12">
 				<div class="all-orders">
-					<div class="order-box pad-top-30 pad-bot-30">
+					<div class="order-box pad-top-30 pad-bot-10">
 						<div class="pad-bot-20">
 							<div class="row">
 								<div class="col-lg-12">

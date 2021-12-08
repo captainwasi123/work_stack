@@ -383,6 +383,7 @@ i.fa-star {
     border: 1px solid silver;
     border-radius: 8px;
     outline: none;
+    font-size: 14px;
 }
 .form-textarea-custom
 {
@@ -434,7 +435,7 @@ table.dataTable thead .sorting:after
 .order-history-btn {
     float: right;
     padding-right: 10px;
-    padding-top: 5px;
+    padding-top: 6px;
 }
 .order-history-btn a {
     color: white;
@@ -476,6 +477,17 @@ table.dataTable thead .sorting:after
     font-size: 16px;
     color: black;
 }
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #ffffff!important;
+    border: 1px solid #186780;
+    background-color: #f5b524;
+}
+.label-success {
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+
 /*Mobile Devices*/
 @media screen and (max-width:519px) and (min-width:320px) { 
 
@@ -510,6 +522,25 @@ table.dataTable thead .sorting:after
 .form-label-custom {
     font-size: 13px;
 }
+.mini-sidebar .top-navbar .navbar-header {
+    width: 150px;
+}
+.dataTables_filter input {
+    width: 70%;
+}
+.page-wrapper {
+    padding-top: 61px !important;
+}
+.dataTables_filter {
+    float: left;
+}
+.order-history-btn {
+    text-align: center;
+}
+.order-history-btn a {
+    margin-right: 0px; 
+    margin-bottom: 10px;
+}
 
 }
 
@@ -535,5 +566,18 @@ table.dataTable thead .sorting:after
 .dasboard-card3 {
     padding-bottom: 10px;
     padding-top: 10px;
+}
+.page-wrapper {
+    padding-top: 61px !important;
+}
+.order-history-btn{
+    width: 100%;
+}
+.order-history-btn a {
+    padding: 8px 12px;
+    margin-right: 8px;
+}
+.form-att-btn-custom {
+    margin: 14px 4px;
 }
 }

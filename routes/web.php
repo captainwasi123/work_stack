@@ -25,7 +25,6 @@ use Illuminate\Support\Facades\Route;
 			Route::get('/thank-you-booking', 'webController@thankyoubooking')->name('thankyoubooking');
 			Route::get('/order-page', 'webController@orderpage')->name('orderpage');
 			Route::get('/pricing-package', 'webController@pricingpackage')->name('pricingpackage');
-			
 		});
 
 	//User
@@ -41,7 +40,6 @@ use Illuminate\Support\Facades\Route;
 			Route::get('/smiles', 'userController@smiles')->name('user.smiles');
 			Route::get('/my-order-upcoming', 'userController@myorderupcoming')->name('user.myorderupcoming');
 			Route::get('/my-order-deliver', 'userController@myorderdeliver')->name('user.myorderdeliver');
-
 		});
 
 

@@ -106,7 +106,7 @@
                                 <form action="#" class="form-horizontal">
                                     <div class="form-body">
                                         <div class="row">
-                                            <div class="col-lg-1 col-md-1 col-4 pad-bot-20">
+                                            <div class="col-lg-1 col-md-2 col-4 pad-bot-20">
                                                 <div class="form-group row">
                                                     <label class="control-label col-md-12 form-label-custom">Admin</label>
                                                     <div class="col-md-12">
@@ -114,7 +114,7 @@
                                                     </div>
                                                 </div>
                                             </div> 
-                                            <div class="col-lg-2 col-md-2 col-5 pad-bot-20">
+                                            <div class="col-lg-2 col-md-3 col-5 pad-bot-20">
                                                 <div class="form-group row">
                                                     <label class="control-label col-md-12 form-label-custom">Default View</label>
                                                     <div class="col-md-12">
@@ -122,7 +122,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-1 col-md-1 col-3 pad-bot-20">
+                                            <div class="col-lg-1 col-md-2 col-3 pad-bot-20">
                                                 <div class="form-group row">
                                                     <label class="control-label col-md-12 form-label-custom">RWD</label>
                                                     <div class="col-md-12">
@@ -130,7 +130,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2 col-md-2 col-4 pad-bot-20">
+                                            <div class="col-lg-2 col-md-3 col-4 pad-bot-20">
                                                 <div class="form-group row">
                                                     <label class="control-label col-md-12 form-label-custom">RWD View </label>
                                                     <div class="col-md-12">
@@ -155,7 +155,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2 col-md-2 col-12 ">
+                                            <div class="col-lg-2 col-md-6 col-12 ">
                                                 <div class="form-group row">
                                                     <button type="submit" class="btn btn-success yellow-bg form-att-btn-custom">App Option</button>
                                                     <button type="submit" class="btn btn-success form-att-btn-custom">Delete</button>

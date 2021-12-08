@@ -11,10 +11,11 @@
         </div>
         <div class="col-lg-8 col-md-8 col-8">
           <div class="sign-buttons">
-            <a href="#"> SmilBee Explore</a>
-            <a href="#"> Notification</a>
-            <a href="#"> Order</a>
             <a href="#" class="blue-color sign-up-btn"> SIGN OUT  </a>
+            <a href="#"> SmilBee Explore</a>
+            <a href="#"> Notificsation</a>
+            <a href="#"> Order</a>
+            
             <a href="#"> <img src="{{URL::to('/public/website')}}/images/boy.png"> </a>
           </div>
         </div>        

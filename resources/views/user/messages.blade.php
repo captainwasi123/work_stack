@@ -1,5 +1,5 @@
 @extends('user.includes.master')
-@section('title', 'My Favorites')
+@section('title', 'Messages')
 @section('addStyle')
 
 @endsection
@@ -16,7 +16,7 @@
 			<div class="col-md-12 col-lg-12 col-sm-4 col-xs-12">		
 				<div class="all-messages">
 					<div class="row">
-						<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12">
+						<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 pad-bot-30">
 							<div class="search-form shad1 no-margin">
 								<input type="text" placeholder="Search" name="search-messages">
 								<button><i class="fa fa-search"></i></button>
@@ -26,12 +26,12 @@
 									<div class="col-lg-12">
 										<div class="all-person-main">
 											<div class="row">
-												<div class="col-md-3 no-pad">
+												<div class="col-lg-3 col-md-3 col-3 no-pad">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<img alt="user-pic" src="{{URL::to('/public/website')}}/images/user-pic.png"/>
 													</div>	
 												</div>
-												<div class="col-md-9">
+												<div class="col-lg-9 col-md-9 col-9">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<h5 class="no-margin blue-color"> Emily Jackson <span>Lorem ipsum is simplu dummy...</span> </h5>
 													</div>			
@@ -42,12 +42,12 @@
 									<div class="col-lg-12">
 										<div class="all-person-main">
 											<div class="row">
-												<div class="col-md-3 no-pad">
+												<div class="col-lg-3 col-md-3 col-3 no-pad">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<img alt="user-pic" src="{{URL::to('/public/website')}}/images/user-pic.png"/>
 													</div>	
 												</div>
-												<div class="col-md-9">
+												<div class="col-lg-9 col-md-9 col-9">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<h5 class="no-margin blue-color"> Emily Jackson <span>Lorem ipsum is simplu dummy...</span> </h5>
 													</div>			
@@ -58,12 +58,12 @@
 									<div class="col-lg-12">
 										<div class="all-person-main">
 											<div class="row">
-												<div class="col-md-3 no-pad">
+												<div class="col-lg-3 col-md-3 col-3 no-pad">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<img alt="user-pic" src="{{URL::to('/public/website')}}/images/user-pic.png"/>
 													</div>	
 												</div>
-												<div class="col-md-9">
+												<div class="col-lg-9 col-md-9 col-9">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<h5 class="no-margin blue-color"> Emily Jackson <span>Lorem ipsum is simplu dummy...</span> </h5>
 													</div>			
@@ -74,12 +74,12 @@
 									<div class="col-lg-12">
 										<div class="all-person-main">
 											<div class="row">
-												<div class="col-md-3 no-pad">
+												<div class="col-lg-3 col-md-3 col-3 no-pad">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<img alt="user-pic" src="{{URL::to('/public/website')}}/images/user-pic.png"/>
 													</div>	
 												</div>
-												<div class="col-md-9">
+												<div class="col-lg-9 col-md-9 col-9">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<h5 class="no-margin blue-color"> Emily Jackson <span>Lorem ipsum is simplu dummy...</span> </h5>
 													</div>			
@@ -90,12 +90,12 @@
 									<div class="col-lg-12">
 										<div class="all-person-main">
 											<div class="row">
-												<div class="col-md-3 no-pad">
+												<div class="col-lg-3 col-md-3 col-3 no-pad">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<img alt="user-pic" src="{{URL::to('/public/website')}}/images/user-pic.png"/>
 													</div>	
 												</div>
-												<div class="col-md-9">
+												<div class="col-lg-9 col-md-9 col-9">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<h5 class="no-margin blue-color"> Emily Jackson <span>Lorem ipsum is simplu dummy...</span> </h5>
 													</div>			
@@ -106,12 +106,12 @@
 									<div class="col-lg-12">
 										<div class="all-person-main">
 											<div class="row">
-												<div class="col-md-3 no-pad">
+												<div class="col-lg-3 col-md-3 col-3 no-pad">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<img alt="user-pic" src="{{URL::to('/public/website')}}/images/user-pic.png"/>
 													</div>	
 												</div>
-												<div class="col-md-9">
+												<div class="col-lg-9 col-md-9 col-9">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<h5 class="no-margin blue-color"> Emily Jackson <span>Lorem ipsum is simplu dummy...</span> </h5>
 													</div>			
@@ -122,12 +122,12 @@
 									<div class="col-lg-12">
 										<div class="all-person-main">
 											<div class="row">
-												<div class="col-md-3 no-pad">
+												<div class="col-lg-3 col-md-3 col-3 no-pad">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<img alt="user-pic" src="{{URL::to('/public/website')}}/images/user-pic.png"/>
 													</div>	
 												</div>
-												<div class="col-md-9">
+												<div class="col-lg-9 col-md-9 col-9">
 													<div class="message-section1 pad-top-10 pad-bot-10">
 														<h5 class="no-margin blue-color"> Emily Jackson <span>Lorem ipsum is simplu dummy...</span> </h5>
 													</div>			
@@ -139,14 +139,14 @@
 							</div>
 						</div>
 
-						<div class="col-md-6 col-lg-6 col-sm-9 col-xs-12">
+						<div class="col-md-6 col-lg-6 col-sm-9 col-xs-12 pad-bot-30">
 							<div class="chat-screen-sec">
 								<div class="chat-screen-head">
 									<div class="row">
-										<div class="col-lg-6">
+										<div class="col-lg-6 col-md-8 col-8">
 											<h3 class="no-margin"> John Watson</h3>
 										</div>
-										<div class="col-lg-6">
+										<div class="col-lg-6 col-md-4 col-4">
 											<div class="message-actions"> 
 									   			<a href=""> <img alt="video-call" src="{{URL::to('/public/website')}}/images/video.png"/> </a> 
 									   			<a href=""> <img alt="audio-call" src="{{URL::to('/public/website')}}/images/call.png"/> </a>  
