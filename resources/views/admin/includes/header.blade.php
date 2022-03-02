@@ -1,7 +1,7 @@
  <header class="topbar">
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{URL::to('admin')}}">
                         <b>
                             <img src="{{URL::to('/public/admin')}}/images/logo.jpg" alt="homepage" class="dark-logo" />
                             <img src="{{URL::to('/public/admin')}}/images/logo.jpg" alt="homepage" class="light-logo" />
@@ -104,24 +104,3 @@
                 </div>
             </nav>
         </header>
-
-        <aside class="left-sidebar pad-top-100">
-            <div class="scroll-sidebar">            
-                <nav class="sidebar-nav">
-                    <ul id="sidebarnav">
-                        <li><a class="waves-effect waves-dark active" href="#">Dashboard </a></li>
-                        <li>
-                            <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><span class="hide-menu">Products </a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="#">All Products</a></li>
-                                <li><a href="#">Add Product</a></li>
-                                <li><a href="#">Create Attribute</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="waves-effect waves-dark" href="#">Transaction </a></li>
-                        <li><a class="waves-effect waves-dark" href="#">Manage Shipping </a></li>
-                        <li><a class="waves-effect waves-dark" href="#">Order History </a></li>
-                    </ul>
-                </nav>
-            </div>
-        </aside>

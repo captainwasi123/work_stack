@@ -29,7 +29,7 @@ use Illuminate\Support\Facades\Route;
 
 	//User
 
-		Route::namespace('user')->prefix('user')->group(function(){
+		Route::prefix('user')->namespace('user')->group(function(){
 
 			Route::get('/', 'userController@index')->name('user.myaccount');
 			Route::get('/personal-details', 'userController@personaldetails')->name('user.personaldetails');
@@ -45,7 +45,7 @@ use Illuminate\Support\Facades\Route;
 
 	//Admin
 
-		Route::namespace('admin')->prefix('admin')->group(function(){
+		Route::prefix('admin')->namespace('admin')->group(function(){
 
 			Route::get('/', 'adminController@index');
 			Route::get('/edit-profile', 'adminController@editprofile')->name('user.editprofile');

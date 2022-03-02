@@ -4,25 +4,19 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title> @yield('title') | WorkStack </title>
-	@include('admin.includes.style')
+	@include('user.includes.style')
 	@yield('addStyle')
 </head>
 
 <body>
 
-	<div id="main-wrapper">
-
-	@include('admin.includes.header')
-	
-	@include('admin.includes.sidebar')
+	@include('user.includes.header')
 
 	@yield('content')
-
-	@include('admin.includes.footer')
-
-	@include('admin.includes.script')
 	
-	</div>
+	@include('user.includes.footer')
+
+	@include('user.includes.script')
 	
 </body>
 </html>

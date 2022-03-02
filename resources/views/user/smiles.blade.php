@@ -1,4 +1,4 @@
-@extends('user.includes.master')
+@extends('user.includes.master2')
 @section('title', 'Smiles')
 @section('addStyle')
 
