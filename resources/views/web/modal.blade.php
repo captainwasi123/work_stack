@@ -51,13 +51,15 @@
                                                 <input type="text" class="form-field-style1" placeholder="Post Code" name="post-code"/>
                                             </div>
 
+                                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                                <input type="submit" name="" class="form-field-style1-btn1 m-t-10" value="SIGN Up">
+                                            </div>
+
                                              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                                 <button class="trigger-btn1"> You want to become a Seller </button>
                                             </div>
 
-                                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                                <input type="submit" name="" class="form-field-style1-btn1 m-t-10" value="SIGN Up">
-                                            </div>
+
                                         </div>
                                     </form>
                                 </div>
