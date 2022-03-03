@@ -1,69 +1,3 @@
-<header>
-  <div class="container">
-    <div class="header-section pad-top-10 pad-bot-10">
-      <div class="row">
-        <div class="col-lg-4 col-md-5 col-5">
-          <div class="logo">
-            <a href="">
-              <img alt="logo" src="{{URL::to('/public/website')}}/images/logo.png"/>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-8 col-md-7 col-7">
-          <div class="sign-buttons">
-            <a href="#">Explore</a>
-            <a href="" class="blue-color sign-up-btn" data-toggle="modal" data-target=".signup-popup" > SIGN UP  </a>
-            <a href="#" class="yellow-color sign-in-btn" data-toggle="modal" data-target=".signin-popup" > SIGN IN  </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-<!-- <header>
-  <div class="container">
-    <div class="header-section pad-top-10 pad-bot-10">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-4">
-          <div class="logo">
-            <a href="">
-              <img alt="logo" src="{{URL::to('/public/website')}}/images/logo.png"/>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-8 col-md-8 col-8">
-          <div class="sign-buttons">
-            <a href="#"> SmilBee Explore</a>
-            <a href="#"> Notification</a>
-            <a href="#"> Order</a>
-            <a href="#" class="blue-color sign-up-btn sign-up-btn-user"> SIGN OUT  </a>
-            <a href="#"> <img src="{{URL::to('/public/website')}}/images/boy.png"> </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section class="nav-mobile" style="border-top:2px solid #f28c00;">
-    <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light no-pad">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <div class="navbar-nav custom-nav-dashboard pad-top-10 pad-bot-10">
-                <a href="#" class="nav-item nav-link active">Buy</a>
-                <a href="#" class="nav-item nav-link">My Order</a>
-                <a href="#" class="nav-item nav-link">Message</a>
-                <a href="#" class="nav-item nav-link">My Accounts</a>
-                <a href="#" class="nav-item nav-link">Smiles</a>
-              </div>
-            </div>
-      </nav>
-    </div>
-  </section>
-</header> -->
-
-{{--
 <!-- sign up modal start -->
 
 <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".signup-popup">Sign up</button> -->
@@ -80,7 +14,8 @@
                                 <div class="inner-modal-side-one">
                                     <h3 class="blue-color no-margin"> Welcome Back! </h3>
                                     <p class="no-margin pad-top-20 pad-bot-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                                    <a class="btn inner-modal-side-one-btn blue-color">Sign in</a>
+                                    <a class="btn inner-modal-side-one-btn blue-color" data-dismiss="modal"  data-toggle="modal" data-target=".signin-popup">Sign in </a>
+
                                 </div>
                             </div>
                             <div class="col-md-8 col-lg-7 col-sm-6 col-xs-12">
@@ -151,7 +86,10 @@
                                     <div class="inner-modal-side-one">
                                         <h3 class="no-margin blue-color"> Hello, Friends ! </h3>
                                         <p class="no-margin pad-top-20 pad-bot-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                                        <a class="btn inner-modal-side-one-btn blue-color">Sign up</a>
+                                        <a class="btn inner-modal-side-one-btn blue-color" data-dismiss="modal"  data-toggle="modal" data-target=".signup-popup">Sign up</a>
+
+
+
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
@@ -199,7 +137,8 @@
                                 <div class="inner-modal-side-one">
                                     <h3 class="blue-color no-margin"> Welcome Back! </h3>
                                     <p class="no-margin pad-top-20 pad-bot-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                                    <a class="btn inner-modal-side-one-btn blue-color">Sign in</a>
+                                    <a class="btn inner-modal-side-one-btn blue-color" data-dismiss="modal"  data-toggle="modal" data-target=".signin-popup">Sign in </a>
+
                                 </div>
                             </div>
                             <div class="col-md-8 col-lg-7 col-sm-6 col-xs-12">
@@ -249,7 +188,4 @@
         </div>
     </div>
 </div>
- <!-- Seller Popup Ends Here -->  --}}
-
-
-
+ <!-- Seller Popup Ends Here -->

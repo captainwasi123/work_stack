@@ -16,7 +16,9 @@
 
 	@include('web.includes.footer')
 
+    @include('web.includes.modal')
+
 	@include('web.includes.script')
-	
+
 </body>
 </html>
