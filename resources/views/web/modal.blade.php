@@ -6,7 +6,7 @@
 <!-- sign up popup start -->
 
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".signup-popup">Sign up</button>
-
+<!-- Sign Up Popup Starts Here -->
 <div class="modal fade modal-size1 bs-example-modal-lg signup-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">      
@@ -24,6 +24,7 @@
                             <div class="col-md-8 col-lg-7 col-sm-6 col-xs-12">
                                 <div class="custom-modal1-form pad-top-50">
                                     <h4 class="no-margin blue-color"> SIGN UP  </h4>
+                                    <form>
                                         <div class="row pad-top-30 pad-right-30">
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                                 <input type="text" class="form-field-style1" placeholder="First Name" name="First Name"/>
@@ -49,10 +50,16 @@
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                                 <input type="text" class="form-field-style1" placeholder="Post Code" name="post-code"/>
                                             </div>
+
+                                             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                                <button class="trigger-btn1"> You want to become a Seller </button>
+                                            </div>
+
                                             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                                 <input type="submit" name="" class="form-field-style1-btn1 m-t-10" value="SIGN Up">
                                             </div>
                                         </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -61,11 +68,10 @@
         </div>
     </div>
 </div>
+<!-- Sign Up Popup Ends Here -->
 
-<!-- sign up popup close -->
-
-<!-- sign in popup start -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".signin-popup">Sign in</button>
+<!-- Sign In Popup Starts Here -->
     <div class="modal fade modal-size1 bs-example-modal-lg signin-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">            
@@ -106,7 +112,7 @@
         </div>
     </div>
 
-<!-- sign in popup close -->
+<!-- Sign In Popup Ends Here -->
 
 <!-- thankyou popup start -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".thankyou-popup">Thank you</button>

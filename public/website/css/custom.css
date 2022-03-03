@@ -2579,6 +2579,20 @@ a.show-pass {
     border: none !important;
 }
 
+button.trigger-btn1 {
+    background: #006680;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    letter-spacing: 0.4px;
+    border-radius: 30px;
+}
+
+button.trigger-btn1:hover {
+    background:black;
+}
+
 /*Mobile Devices*/
 @media screen and (max-width:519px) and (min-width:320px) { 
 
