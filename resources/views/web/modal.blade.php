@@ -9,7 +9,7 @@
 
 <div class="modal fade modal-size1 bs-example-modal-lg signup-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
     <div class="modal-dialog" role="document">
-        <div class="modal-content">      
+        <div class="modal-content">
             <div class="custom-modal custom-modal-bg1">
                 <button type="button" class="close1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                     <div class="inner-modal">
@@ -19,7 +19,7 @@
                                     <h3 class="blue-color no-margin"> Welcome Back! </h3>
                                     <p class="no-margin pad-top-20 pad-bot-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                     <a class="btn inner-modal-side-one-btn blue-color">Sign in</a>
-                                </div>    
+                                </div>
                             </div>
                             <div class="col-md-8 col-lg-7 col-sm-6 col-xs-12">
                                 <div class="custom-modal1-form pad-top-50">
@@ -68,7 +68,7 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".signin-popup">Sign in</button>
     <div class="modal fade modal-size1 bs-example-modal-lg signin-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">            
+            <div class="modal-content">
                 <div class="custom-modal custom-modal-bg1">
                     <button type="button" class="close1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                         <div class="inner-modal">
@@ -78,7 +78,7 @@
                                         <h3 class="no-margin blue-color"> Hello, Friends ! </h3>
                                         <p class="no-margin pad-top-20 pad-bot-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                         <a class="btn inner-modal-side-one-btn blue-color">Sign up</a>
-                                    </div>    
+                                    </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                                     <div class="custom-modal2-form pad-top-50" >
@@ -92,11 +92,11 @@
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-12">
                                                 <a href="#" class="forget-label yellow-color">Forget Password? </a>
-                                            </div> 
+                                            </div>
                                             <div class="col-lg-12 col-md-12 col-12">
                                                 <input type="submit" name="" class="form-field-style1-btn1 m-t-20" value="SIGN IN">
-                                            </div>                                             
-                                        </div>                                        
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".thankyou-popup">Thank you</button>
     <div class="modal fade modal-size2 bs-example-modal-lg thankyou-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog" role="document">
-            <div class="modal-content text-center">                
+            <div class="modal-content text-center">
                 <div class="custom-modal custom-modal-bg1">
                     <button type="button" class="close1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                     <div class="custom-modal2-inner">
@@ -120,7 +120,7 @@
                         <h6 class="no-margin pad-top-20"> Thanks for Registering on WorkStack! </h6>
                         <h6 class="no-margin pad-top-10"> Please Verify your Email Address. </h6>
                         <a href="#" class="custom-modal2-btn m-t-30 yellow-bg"> GO TO HOME </a>
-                    </div>              
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".email-account-verify-popup">Email Account Verfiy</button>
 <div class="modal fade modal-size4 bs-example-modal-lg email-account-verify-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
     <div class="modal-dialog" role="document">
-        <div class="modal-content">            
+        <div class="modal-content">
             <div class="custom-modal custom-modal-bg1">
                 <button type="button" class="close1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                     <div class="verify-account-data text-center">
@@ -217,16 +217,16 @@
                                     <img alt="work-image" src="{{URL::to('/public/website')}}/images/service-catagory5.png"/>
                                     <h3 class="no-margin pad-top-10"> Home Cleaning </h3>
                                 </div>
-                            </div> 
+                            </div>
                             <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 ">
                                 <div class="service-popup pad-top-20 pad-bot-20">
                                     <img alt="work-image" src="{{URL::to('/public/website')}}/images/service-catagory6.png"/>
                                     <h3 class="no-margin pad-top-10"> Home Cleaning </h3>
                                 </div>
-                            </div>                                       
+                            </div>
                         </div>
                     </div>
-                </div>   
+                </div>
             </div>
         </div>
     </div>
@@ -239,9 +239,9 @@
 
 <div class="modal fade modal-size3 bs-example-modal-lg add-address-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
     <div class="modal-dialog" role="document">
-        <div class="modal-content">        
+        <div class="modal-content">
             <div class="custom-modal custom-modal-bg1">
-                <button type="button" class="close1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>            
+                <button type="button" class="close1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 <div class="verify-address-data">
                     <h2 class="no-margin blue-color pad-bot-30">Add your Address</h2>
                     <form>
@@ -257,7 +257,7 @@
                                     <a class="blue-color"> <i class="fa fa-check"> </i> Work </a>
                                     <a class="active"> <i class="fa fa-check"> </i> Home </a>
                                 </div>
-                            </div>                           
+                            </div>
                             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                                 <div class="form-field2 pad-bot-20">
                                     <p class="no-margin blue-color pad-bot-10"> Post Code </p>
@@ -279,7 +279,7 @@
                             <div class="col-lg-12 col-md-12 col-12">
                                 <input type="submit" class="form-field2-btn yellow-bg" value="SUBMIT">
                             </div>
-                        </div>                        
+                        </div>
                     </form>
                 </div>
             </div>
@@ -309,7 +309,7 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".promo-code-popup">Promo Code</button>
     <div class="modal fade modal-size3 bs-example-modal-lg promo-code-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">            
+            <div class="modal-content">
                 <div class="custom-modal custom-modal-bg1">
                     <button type="button" class="close1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                         <div class="promo-code-sec">
@@ -362,7 +362,7 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".reason-cancellation">Reason for Cancellation</button>
     <div class="modal fade modal-size3 bs-example-modal-lg reason-cancellation" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">            
+            <div class="modal-content">
                 <div class="custom-modal custom-modal-bg1">
                     <button type="button" class="close1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                         <div class="verify-address-data">
@@ -433,12 +433,12 @@
                                 </div>
                                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                    <!--  <div class="time-data-submit">
- -->                                        <input type="submit" class="form-field2-btn yellow-bg" value="SUBMIT" name=""> 
-                                        <input type="submit" class="form-field2-btn blue-bg" value="ADD ATTENDANCE" name=""> 
+ -->                                        <input type="submit" class="form-field2-btn yellow-bg" value="SUBMIT" name="">
+                                        <input type="submit" class="form-field2-btn blue-bg" value="ADD ATTENDANCE" name="">
                                   <!--   </div> -->
                                 </div>
                             </div>
-                            
+
                         </form>
                     </div>
                 </div>
