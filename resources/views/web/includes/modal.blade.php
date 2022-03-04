@@ -21,19 +21,20 @@
                             <div class="col-md-8 col-lg-7 col-sm-6 col-xs-12">
                                 <div class="custom-modal1-form pad-top-50">
                                     <h5 class="no-margin blue-color text-center" style="font-weight: 600;"> CREATE A BUYER ACCOUNT  </h5>
-                                    <form>
+                                    <form action="{{URL::to('/registerSubmit')}}" method="POST">
+                                        @csrf
                                         <div class="row pad-top-30 pad-right-30">
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="First Name" name="First Name"/>
+                                                <input type="text" class="form-field-style1" placeholder="First Name" name="first_name"/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="Last Name" name="Last Name"/>
+                                                <input type="text" class="form-field-style1" placeholder="Last Name" name="last_name"/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="Email Address" name="email-address"/>
+                                                <input type="text" class="form-field-style1" placeholder="Email Address" name="email"/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="number" class="form-field-style1" placeholder="Phone" name="contact-number"/>
+                                                <input type="number" class="form-field-style1" placeholder="Phone" name="phone"/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                                 <input type="password" class="form-field-style1" placeholder="Password" name="password"/>
@@ -45,7 +46,7 @@
                                                 <input type="text" class="form-field-style1" placeholder="Address" name="address"/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="Post Code" name="post-code"/>
+                                                <input type="text" class="form-field-style1" placeholder="Post Code" name="postcode"/>
                                             </div>
 
 
