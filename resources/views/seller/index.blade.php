@@ -1,5 +1,5 @@
-@extends('admin.includes.master')
-@section('title', 'Dashboard | Admin')
+@extends('seller.includes.master')
+@section('title', 'Dashboard | seller')
 @section('addStyle')
 
 @endsection
@@ -16,7 +16,7 @@
                                     	<h2 class="no-margin">12</h2>
                                         <h6 class="no-margin">Pending Order</h6></div>
 	                                    <div class="col-4 align-self-center text-right p-l-0">
-	                                        <img src="{{URL::to('/public/admin')}}/images/dash-icon1.jpg">
+	                                        <img src="{{URL::to('/public/seller')}}/images/dash-icon1.jpg">
 	                                    </div>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@
                                     	<h2 class="no-margin">20</h2>
                                         <h6 class="no-margin">Pending Order</h6></div>
 	                                    <div class="col-4 align-self-center text-right p-l-0">
-	                                        <img src="{{URL::to('/public/admin')}}/images/dash-icon2.jpg">
+	                                        <img src="{{URL::to('/public/seller')}}/images/dash-icon2.jpg">
 	                                    </div>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@
                                     	<h2 class="no-margin">5</h2>
                                         <h6 class="no-margin">Refund Request</h6></div>
 	                                    <div class="col-4 align-self-center text-right p-l-0">
-	                                        <img src="{{URL::to('/public/admin')}}/images/dash-icon3.jpg">
+	                                        <img src="{{URL::to('/public/seller')}}/images/dash-icon3.jpg">
 	                                    </div>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@
                                     	<h2 class="no-margin">$700</h2>
                                         <h6 class="no-margin">Total Earn</h6></div>
 	                                    <div class="col-4 align-self-center text-right p-l-0">
-	                                        <img src="{{URL::to('/public/admin')}}/images/dash-icon4.jpg">
+	                                        <img src="{{URL::to('/public/seller')}}/images/dash-icon4.jpg">
 	                                    </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@
                                 <div class="dasboard-card3">
                                     <div class="row">
                                         <div class="col-lg-2 col-md-3 col-3">
-                                            <img src="{{URL::to('/public/admin')}}/images/product5.jpg" width="100%">
+                                            <img src="{{URL::to('/public/seller')}}/images/product5.jpg" width="100%">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-6">
                                             <h3 class="no-margin">Bluetooth Smart Watch</h3>
@@ -110,7 +110,7 @@
                                 <div class="dasboard-card3">
                                     <div class="row">
                                         <div class="col-lg-2 col-md-3 col-3">
-                                            <img src="{{URL::to('/public/admin')}}/images/product5.jpg" width="100%">
+                                            <img src="{{URL::to('/public/seller')}}/images/product5.jpg" width="100%">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-6">
                                             <h3 class="no-margin">Bluetooth Smart Watch</h3>
@@ -127,7 +127,7 @@
                                 <div class="dasboard-card3">
                                     <div class="row">
                                         <div class="col-lg-2 col-md-3 col-3">
-                                            <img src="{{URL::to('/public/admin')}}/images/product5.jpg" width="100%">
+                                            <img src="{{URL::to('/public/seller')}}/images/product5.jpg" width="100%">
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-6">
                                             <h3 class="no-margin">Bluetooth Smart Watch</h3>
@@ -172,7 +172,7 @@
                                         <tbody>
                                             <tr>
                                                 <td width="5%">
-                                                    <img src="{{URL::to('/public/admin')}}/images/user-pic.png" alt="iMac" width="80">
+                                                    <img src="{{URL::to('/public/seller')}}/images/user-pic.png" alt="iMac" width="80">
                                                 </td>
                                                 <td>Mason vox</td>
                                                         
@@ -185,7 +185,7 @@
                                             </tr>
                                             <tr>
                                                 <td width="5%">
-                                                    <img src="{{URL::to('/public/admin')}}/images/user-pic.png" alt="iMac" width="80">
+                                                    <img src="{{URL::to('/public/seller')}}/images/user-pic.png" alt="iMac" width="80">
                                                 </td>
                                                 <td>Mason vox</td>
                                                         

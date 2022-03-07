@@ -4,7 +4,11 @@ namespace App\Http\Controllers\web;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+<<<<<<< HEAD
+use Carbon\Carbon;
+=======
 use App\Models\User;
+>>>>>>> 9eef4b3353b1fa8589b10532acf2afd9b1b903a0
 
 class webController extends Controller
 {
@@ -13,10 +17,8 @@ class webController extends Controller
 
     	return view('web.index');
     }
-    function modal(){
 
-    	return view('web.modal');
-    }
+  
     function services(){
 
     	return view('web.services');

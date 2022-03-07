@@ -1,10 +1,10 @@
  <header class="topbar">
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="{{URL::to('admin')}}">
+                    <a class="navbar-brand" href="{{URL::to('seller')}}">
                         <b>
-                            <img src="{{URL::to('/public/admin')}}/images/logo.jpg" alt="homepage" class="dark-logo" />
-                            <img src="{{URL::to('/public/admin')}}/images/logo.jpg" alt="homepage" class="light-logo" />
+                            <img src="{{URL::to('/public/seller')}}/images/logo.jpg" alt="homepage" class="dark-logo" />
+                            <img src="{{URL::to('/public/seller')}}/images/logo.jpg" alt="homepage" class="light-logo" />
                         </b>
                     </a>
                 </div>
@@ -26,14 +26,14 @@
                                     <li>
                                         <div class="message-center">
                                             <a href="#">
-                                                <div class="user-img"> <img src="{{URL::to('/public/admin')}}/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online"></span> </div>
+                                                <div class="user-img"> <img src="{{URL::to('/public/seller')}}/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online"></span> </div>
                                                 <div class="mail-contnet">
-                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my seller!</span> <span class="time">9:30 AM</span> </div>
                                             </a>
                                             <a href="#">
-                                                <div class="user-img"> <img src="{{URL::to('/public/admin')}}/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online"></span> </div>
+                                                <div class="user-img"> <img src="{{URL::to('/public/seller')}}/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online"></span> </div>
                                                 <div class="mail-contnet">
-                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my seller!</span> <span class="time">9:30 AM</span> </div>
                                             </a>                                            
                                         </div>
                                     </li>
@@ -63,17 +63,17 @@
                                             <a href="#">
                                                 <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
                                                 <div class="mail-contnet">
-                                                    <h5>Luanch Admin</h5> <span class="mail-desc">Just see the my new admin!</span> <span class="time">9:30 AM</span> </div>
+                                                    <h5>Luanch seller</h5> <span class="mail-desc">Just see the my new seller!</span> <span class="time">9:30 AM</span> </div>
                                             </a>
                                             <a href="#">
                                                 <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
                                                 <div class="mail-contnet">
-                                                    <h5>Luanch Admin</h5> <span class="mail-desc">Just see the my new admin!</span> <span class="time">9:30 AM</span> </div>
+                                                    <h5>Luanch seller</h5> <span class="mail-desc">Just see the my new seller!</span> <span class="time">9:30 AM</span> </div>
                                             </a>
                                             <a href="#">
                                                 <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
                                                 <div class="mail-contnet">
-                                                    <h5>Luanch Admin</h5> <span class="mail-desc">Just see the my new admin!</span> <span class="time">9:30 AM</span> </div>
+                                                    <h5>Luanch seller</h5> <span class="mail-desc">Just see the my new seller!</span> <span class="time">9:30 AM</span> </div>
                                             </a>                                          
                                         </div>
                                     </li>
@@ -84,12 +84,12 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{URL::to('/public/admin')}}/images/users/1.jpg" alt="user" class="profile-pic" /></a>
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{URL::to('/public/seller')}}/images/users/1.jpg" alt="user" class="profile-pic" /></a>
                             <div class="dropdown-menu dropdown-menu-right scale-up">
                                 <ul class="dropdown-user">
                                     <li>
                                         <div class="dw-user-box">
-                                            <div class="u-img"><img src="{{URL::to('/public/admin')}}/images/users/1.jpg" alt="user"></div>
+                                            <div class="u-img"><img src="{{URL::to('/public/seller')}}/images/users/1.jpg" alt="user"></div>
                                             <div class="u-text">
                                                 <h4>Steave Jobs</h4>
                                                 <p class="text-muted">varun@gmail.com</p><a href="pages-profile.html" class="btn btn-rounded btn-danger btn-sm">Edit Profile</a></div>

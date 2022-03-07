@@ -1,5 +1,5 @@
-@extends('admin.includes.master')
-@section('title', 'Create Attribute | Admin')
+@extends('seller.includes.master')
+@section('title', 'Create Attribute | seller')
 @section('addStyle')
 
 @endsection
@@ -11,7 +11,7 @@
                     <div class="page-breadcum">
                         <h3 class="no-margin">Manage Configurable Product's Attribute</h3>
                     </div>
-                </div>            
+                </div>
             </div>
 
             <div class="container-fluid pad-top-30">
@@ -43,9 +43,9 @@
                                             </div>
                                             <div class="col-md-4 pad-bot-30">
                                                 <div class="form-group row">
-                                                    <label class="control-label col-md-12 form-label-custom">Attribute Label for Admin Store View:</label>
+                                                    <label class="control-label col-md-12 form-label-custom">Attribute Label for seller Store View:</label>
                                                     <div class="col-md-12">
-                                                        <input type="text" class="form-control form-input-custom" placeholder="Enter Attribute Label for Admin Store View">
+                                                        <input type="text" class="form-control form-input-custom" placeholder="Enter Attribute Label for seller Store View">
                                                     </div>
                                                 </div>
                                             </div>
@@ -84,7 +84,7 @@
                                                         <input type="text" class="form-control form-input-custom" placeholder="Enter Values Required">
                                                     </div>
                                                 </div>
-                                            </div> 
+                                            </div>
                                         </div>
                                     </div>
                                     <hr>
@@ -92,7 +92,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <button type="submit" class="btn btn-success form-btn-custom">Save Attribute</button>
-                                            </div>                                            
+                                            </div>
                                         </div>
                                     </div>
                                 </form>
@@ -108,12 +108,12 @@
                                         <div class="row">
                                             <div class="col-lg-1 col-md-2 col-4 pad-bot-20">
                                                 <div class="form-group row">
-                                                    <label class="control-label col-md-12 form-label-custom">Admin</label>
+                                                    <label class="control-label col-md-12 form-label-custom">seller</label>
                                                     <div class="col-md-12">
                                                         <input type="text" class="form-control form-input-custom" placeholder="">
                                                     </div>
                                                 </div>
-                                            </div> 
+                                            </div>
                                             <div class="col-lg-2 col-md-3 col-5 pad-bot-20">
                                                 <div class="form-group row">
                                                     <label class="control-label col-md-12 form-label-custom">Default View</label>
@@ -162,7 +162,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>                                    
+                                    </div>
                                 </form>
                             </div>
                         </div>
