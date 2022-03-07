@@ -1,5 +1,5 @@
-@extends('admin.includes.master')
-@section('title', 'Manage Shipping | Admin')
+@extends('seller.includes.master')
+@section('title', 'Manage Shipping | seller')
 @section('addStyle')
 
 @endsection

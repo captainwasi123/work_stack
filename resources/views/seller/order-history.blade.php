@@ -1,5 +1,5 @@
-@extends('admin.includes.master')
-@section('title', 'Order History | Admin')
+@extends('seller.includes.master')
+@section('title', 'Order History | seller')
 @section('addStyle')
 <style type="text/css">
 @media screen and (max-width:992px) and (min-width:768px) { 

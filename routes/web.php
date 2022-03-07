@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 	// Web-Routes
-		
+
 		Route::namespace('web')->group(function(){
 
 			Route::get('/', 'webController@index')->name('home');
@@ -43,16 +43,16 @@ use Illuminate\Support\Facades\Route;
 		});
 
 
-	//Admin
+	//seller
 
-		Route::prefix('admin')->namespace('admin')->group(function(){
+		Route::prefix('seller')->namespace('seller')->group(function(){
 
-			Route::get('/', 'adminController@index');
-			Route::get('/edit-profile', 'adminController@editprofile')->name('user.editprofile');
-			Route::get('/all-products', 'adminController@allproducts')->name('user.allproducts');
-			Route::get('/transaction', 'adminController@transaction')->name('user.transaction');
-			Route::get('/order-history', 'adminController@orderhistory')->name('user.orderhistory');
-			Route::get('/manage-shipping', 'adminController@manageshipping')->name('user.manageshipping');
-			Route::get('/add-product', 'adminController@addproduct')->name('user.addproduct');
-			Route::get('/create-attribute', 'adminController@createattribute')->name('user.createattribute');
+			Route::get('/', 'sellerController@index');
+			Route::get('/edit-profile', 'sellerController@editprofile')->name('seller.editprofile');
+			Route::get('/all-products', 'sellerController@allproducts')->name('seller.allproducts');
+			Route::get('/transaction', 'sellerController@transaction')->name('seller.transaction');
+			Route::get('/order-history', 'sellerController@orderhistory')->name('seller.orderhistory');
+			Route::get('/manage-shipping', 'sellerController@manageshipping')->name('seller.manageshipping');
+			Route::get('/add-product', 'sellerController@addproduct')->name('seller.addproduct');
+			Route::get('/create-attribute', 'sellerController@createattribute')->name('seller.createattribute');
 		});

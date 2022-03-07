@@ -1,28 +1,28 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="{{URL::to('/public/admin')}}/js/popper.min.js"></script>
+<script src="{{URL::to('/public/seller')}}/js/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="{{URL::to('/public/admin')}}/js/jquery.slimscroll.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/sidebarmenu.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/sticky-kit.min.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/jquery.sparkline.min.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/custom.min.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/raphael-min.js"> </script>
-<!-- <script src="{{URL::to('/public/admin')}}/js/morris-data.js"> </script> -->
-<script src="{{URL::to('/public/admin')}}/js/morris.min.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/dashboard4.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/jQuery.style.switcher.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/jquery.dataTables.min.js"></script>
-<script src="{{URL::to('/public/admin')}}/js/functions.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/waves.js"> </script>
-<!-- <script src="{{URL::to('/public/admin')}}/js/footable.all.min.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/footable-init.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/jquery.slimscroll.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/sidebarmenu.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/sticky-kit.min.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/jquery.sparkline.min.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/custom.min.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/raphael-min.js"> </script>
+<!-- <script src="{{URL::to('/public/seller')}}/js/morris-data.js"> </script> -->
+<script src="{{URL::to('/public/seller')}}/js/morris.min.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/dashboard4.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/jQuery.style.switcher.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/jquery.dataTables.min.js"></script>
+<script src="{{URL::to('/public/seller')}}/js/functions.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/waves.js"> </script>
+<!-- <script src="{{URL::to('/public/seller')}}/js/footable.all.min.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/footable-init.js"> </script>
 
-<script src="{{URL::to('/public/admin')}}/js/flot-data.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/jasny-bootstrap.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/jquery.PrintArea.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/jsgrid-init.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/mask.init.js"> </script>
-<script src="{{URL::to('/public/admin')}}/js/perfect-scrollbar.min.js"> </script> -->
+<script src="{{URL::to('/public/seller')}}/js/flot-data.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/jasny-bootstrap.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/jquery.PrintArea.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/jsgrid-init.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/mask.init.js"> </script>
+<script src="{{URL::to('/public/seller')}}/js/perfect-scrollbar.min.js"> </script> -->
 <script>
     $(document).ready(function() {
         $('#myTable').DataTable();

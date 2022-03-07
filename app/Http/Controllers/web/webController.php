@@ -4,6 +4,7 @@ namespace App\Http\Controllers\web;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 class webController extends Controller
 {
@@ -12,10 +13,8 @@ class webController extends Controller
 
     	return view('web.index');
     }
-    function modal(){
 
-    	return view('web.modal');
-    }
+  
     function services(){
 
     	return view('web.services');

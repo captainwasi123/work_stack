@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title> @yield('title') | WorkStack </title>
-	@include('admin.includes.style')
+	@include('seller.includes.style')
 	@yield('addStyle')
 </head>
 
@@ -12,15 +12,15 @@
 
 	<div id="main-wrapper">
 
-	@include('admin.includes.header')
+	@include('seller.includes.header')
 	
-	@include('admin.includes.sidebar')
+	@include('seller.includes.sidebar')
 
 	@yield('content')
 
-	@include('admin.includes.footer')
+	@include('seller.includes.footer')
 
-	@include('admin.includes.script')
+	@include('seller.includes.script')
 	
 	</div>
 	

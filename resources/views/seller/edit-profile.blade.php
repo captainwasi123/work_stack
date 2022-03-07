@@ -1,5 +1,5 @@
-@extends('admin.includes.master')
-@section('title', 'Edit Profile | Admin')
+@extends('seller.includes.master')
+@section('title', 'Edit Profile | seller')
 @section('addStyle')
 
 @endsection
