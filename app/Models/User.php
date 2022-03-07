@@ -23,6 +23,23 @@ class User extends Authenticatable
         'password',
     ];
 
+    protected $table = 'tbl_users_info';
+
+    public static function addUser(array $data)
+    {
+        $l = new User;
+        $l->first_name = $data['first_name'];
+        $l->last_name = $data['last_name'];
+        $l->email = $data['email'];
+        $l->phone = $data['phone'];
+        $l->password = bcrypt($data['password']);
+        $l->address = $data['address'];
+        $l->postcode = $data['postcode'];
+        $l->userType = $data['userType'] = '1';
+        $l->status = $data['status'] = '1';
+        $l->save();
+    }
+
     /**
      * The attributes that should be hidden for serialization.
      *
