@@ -26,7 +26,7 @@ use Illuminate\Support\Facades\Route;
 			Route::get('/order-page', 'webController@orderpage')->name('orderpage');
 			Route::get('/pricing-package', 'webController@pricingpackage')->name('pricingpackage');
 
-			Route::post('/registerSubmit', 'webController@registerSubmit')->name('registerSubmit');
+			Route::post('/registerSubmit', 'webController@registerSubmit')->name('registerSubmit'); 
 		});
 
 	//User
