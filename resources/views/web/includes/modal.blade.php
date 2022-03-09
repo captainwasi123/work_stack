@@ -25,28 +25,28 @@
                                         @csrf
                                         <div class="row pad-top-30 pad-right-30">
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="First Name" name="first_name"/>
+                                                <input type="text" class="form-field-style1" placeholder="First Name" name="first_name" required />
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="Last Name" name="last_name"/>
+                                                <input type="text" class="form-field-style1" placeholder="Last Name" name="last_name" required/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="Email Address" name="email"/>
+                                                <input type="text" class="form-field-style1" placeholder="Email Address" name="email" required/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="number" class="form-field-style1" placeholder="Phone" name="phone"/>
+                                                <input type="number" class="form-field-style1" placeholder="Phone" name="phone" required/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="password" class="form-field-style1" placeholder="Password" name="password"/>
+                                                <input type="password" class="form-field-style1" placeholder="Password" name="password" required/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="password" class="form-field-style1" placeholder="Confirm Password" name="confirm-password"/>
+                                                <input type="password" class="form-field-style1" placeholder="Confirm Password" name="confirm-password" required/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="Address" name="address"/>
+                                                <input type="text" class="form-field-style1" placeholder="Address" name="address" required/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="text" class="form-field-style1" placeholder="Post Code" name="postcode"/>
+                                                <input type="text" class="form-field-style1" placeholder="Post Code" name="postcode" required/>
                                             </div>
 
 
@@ -76,6 +76,7 @@
 <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".signin-popup">Sign in</button> -->
 
 <!-- Sign In Popup Starts Here -->
+
     <div class="modal fade modal-size1 bs-example-modal-lg signin-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -95,11 +96,12 @@
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                                     <div class="custom-modal2-form pad-top-50" >
-                                        <h4 class="no-margin blue-color text-center"> SIGN IN  </h4>
-                                        <form>
+                                        <h4 class="no-margin blue-color text-center">SIGN IN  </h4>
+                                        <form action="{{URL::to('/loginAttempt')}}" method="POST">
+                                            @csrf
                                         <div class="row pad-top-30 pad-right-20">
                                             <div class="col-lg-12 col-md-12 col-12">
-                                                <input type="text" class="form-field-style1" placeholder="Email Address" name="email-address"/>
+                                                <input type="text" class="form-field-style1" placeholder="Email Address" name="email"/>
                                             </div>
                                             <div class="col-lg-12 col-md-12 col-12">
                                                 <input type="password" class="form-field-style1" placeholder="Password" name="password"/>

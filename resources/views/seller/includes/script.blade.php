@@ -23,6 +23,7 @@
 <script src="{{URL::to('/public/seller')}}/js/jsgrid-init.js"> </script>
 <script src="{{URL::to('/public/seller')}}/js/mask.init.js"> </script>
 <script src="{{URL::to('/public/seller')}}/js/perfect-scrollbar.min.js"> </script> -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script>
     $(document).ready(function() {
         $('#myTable').DataTable();
@@ -79,3 +80,16 @@
         $(".dataTables_filter").removeAttr("top");
     });
     </script>
+
+<!-- ============================================================== -->
+    <!-- sweet alert -->
+
+@if(session()->has('success'))
+    <script type="text/javascript">
+        $(document).ready(function(){
+            swal("Success!", "{{ session()->get('success') }}", "success");
+        });
+    </script>
+@endif
+
+<!-- ============================================================== -->

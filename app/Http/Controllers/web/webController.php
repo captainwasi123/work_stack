@@ -4,11 +4,8 @@ namespace App\Http\Controllers\web;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-<<<<<<< HEAD
 use Carbon\Carbon;
-=======
 use App\Models\User;
->>>>>>> 9eef4b3353b1fa8589b10532acf2afd9b1b903a0
 
 class webController extends Controller
 {
@@ -77,14 +74,44 @@ class webController extends Controller
     // }
 
     function registerSubmit(Request $request){
-        // $validated = $request->validate([
-        //     'email' => 'required|unique:tbl_users_info|max:255',
-        //     'password' => 'required|confirmed|min:6',
-        // ]);
+        $validated = $request->validate([
+            'email' => 'required|unique:tbl_users_info|max:255',
+            'password' => 'required|confirmed|min:6',
+        ]);
 
 
         $data = $request->all();   
         User::addUser($data);
         return redirect()->back()->with('success', 'Account Created.');
     }
+
+
+//     function registerSubmit(Request $request)
+//     {
+//         $validator = Validator::make($request->all(), [
+//             'name' => 'required',
+//             'email' => 'required|email|unique:users,email',   // required and email format validation
+//             'password' => 'required|min:8', // required and number field validation
+//             'confirm_password' => 'required|same:password',
+
+//         ]); // create the validations
+//         if ($validator->fails())   //check all validations are fine, if not then redirect and show error messages
+//         {
+//             return response()->json($validator->errors(),422);  
+//             // validation failed return back to form
+
+//         } else {
+//             //validations are passed, save new user in database
+//             $User = new User;
+//             $User->name = $request->name;
+//             $User->email = $request->email;
+//             $User->password = bcrypt($request->password);
+//             $User->save();
+            
+//             return response()->json(["status"=>true,"msg"=>"You have successfully registered, Login to access your dashboard","redirect_location"=>url("login")]);  
+           
+//         }
+    
+
+// }
 }

@@ -26,14 +26,15 @@ use Illuminate\Support\Facades\Route;
 			Route::get('/order-page', 'webController@orderpage')->name('orderpage');
 			Route::get('/pricing-package', 'webController@pricingpackage')->name('pricingpackage');
 
-			Route::post('/registerSubmit', 'webController@registerSubmit')->name('registerSubmit'); 
+			Route::post('/registerSubmit', 'webController@registerSubmit')->name('registerSubmit');
+			Route::post('/loginAttempt', 'authController@loginAttempt')->name('loginAttempt');  
 		});
 
 	//User
 
 		Route::prefix('user')->namespace('user')->group(function(){
 
-			Route::get('/', 'userController@index')->name('user.myaccount');
+			Route::get('/', 'userController@index')->name('user.dashboard');
 			Route::get('/personal-details', 'userController@personaldetails')->name('user.personaldetails');
 			Route::get('/reset-password', 'userController@resetpassword')->name('user.resetpassword');
 			Route::get('/transaction', 'userController@transaction')->name('user.transaction');
@@ -49,7 +50,7 @@ use Illuminate\Support\Facades\Route;
 
 		Route::prefix('seller')->namespace('seller')->group(function(){
 
-			Route::get('/', 'sellerController@index');
+			Route::get('/', 'sellerController@index')->name('seller.dashboard');
 			Route::get('/edit-profile', 'sellerController@editprofile')->name('seller.editprofile');
 			Route::get('/all-products', 'sellerController@allproducts')->name('seller.allproducts');
 			Route::get('/transaction', 'sellerController@transaction')->name('seller.transaction');
