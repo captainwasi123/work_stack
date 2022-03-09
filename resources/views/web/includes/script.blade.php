@@ -4,6 +4,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="{{URL::to('/public/website')}}/js/slick-slider.js"> </script>
 <script src="{{URL::to('/public/website')}}/js/functions.js"> </script>
+  <script src="{{URL::to('/public/website')}}/js/dev.js"> </script>
+
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <!-- ============================================================== -->

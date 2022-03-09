@@ -15,7 +15,7 @@ class webController extends Controller
     	return view('web.index');
     }
 
-  
+
     function services(){
 
     	return view('web.services');
@@ -68,21 +68,51 @@ class webController extends Controller
     //     $r->address = $data['address'];
     //     $r->userType = $data['userType'];
     //     $r->save();
-        
+
     //     return redirect()->back()->with('success', 'New User Added!');
 
     // }
 
+    // function registerSubmit(Request $request){
+    //     $validated = $request->validate([
+    //         'email' => 'required|unique:tbl_users_info|max:255',
+    //         'password' => 'required|confirmed|min:6',
+    //     ]);
+
+
+    //     $data = $request->all();
+    //     User::addUser($data);
+    //     return redirect()->back()->with('success', 'Account Created.');
+    // }
+
+
     function registerSubmit(Request $request){
-        $validated = $request->validate([
-            'email' => 'required|unique:tbl_users_info|max:255',
-            'password' => 'required|confirmed|min:6',
-        ]);
+    	$data = $request->all();
+         $user = User::where('email', $data['email'])->count();
+            	
+        if($user != '0'){
+
+                return 'exist';
+
+        }else if($data['password'] != $data['confirmation_password']){
+
+    	    return 'nomatch';
+
+    	}else{
+
+                if(strlen($data['password']) < 6){
+
+                    return 'strong';
+
+                }else{
+
+                    User::addUser($data);
+                    return 'success';
+
+                }
 
 
-        $data = $request->all();   
-        User::addUser($data);
-        return redirect()->back()->with('success', 'Account Created.');
+        }
     }
 
 
@@ -97,7 +127,7 @@ class webController extends Controller
 //         ]); // create the validations
 //         if ($validator->fails())   //check all validations are fine, if not then redirect and show error messages
 //         {
-//             return response()->json($validator->errors(),422);  
+//             return response()->json($validator->errors(),422);
 //             // validation failed return back to form
 
 //         } else {
@@ -107,11 +137,11 @@ class webController extends Controller
 //             $User->email = $request->email;
 //             $User->password = bcrypt($request->password);
 //             $User->save();
-            
-//             return response()->json(["status"=>true,"msg"=>"You have successfully registered, Login to access your dashboard","redirect_location"=>url("login")]);  
-           
+
+//             return response()->json(["status"=>true,"msg"=>"You have successfully registered, Login to access your dashboard","redirect_location"=>url("login")]);
+
 //         }
-    
+
 
 // }
 }

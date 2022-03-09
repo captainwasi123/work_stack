@@ -21,11 +21,15 @@
                             <div class="col-md-8 col-lg-7 col-sm-6 col-xs-12">
                                 <div class="custom-modal1-form pad-top-50">
                                     <h5 class="no-margin blue-color text-center" style="font-weight: 600;"> CREATE A BUYER ACCOUNT  </h5>
-                                    <form action="{{URL::to('/registerSubmit')}}" method="POST">
+                                    <form id="register-form" action="{{URL::to('/registerSubmit')}}" >
                                         @csrf
+                                           <span id="r_error" class="error_span"></span>
+                                        
                                         <div class="row pad-top-30 pad-right-30">
+                                         
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                                 <input type="text" class="form-field-style1" placeholder="First Name" name="first_name" required />
+                                              
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                                 <input type="text" class="form-field-style1" placeholder="Last Name" name="last_name" required/>
@@ -40,7 +44,7 @@
                                                 <input type="password" class="form-field-style1" placeholder="Password" name="password" required/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                                <input type="password" class="form-field-style1" placeholder="Confirm Password" name="confirm-password" required/>
+                                                <input type="password" class="form-field-style1" placeholder="Confirm Password" name="confirmation_password" required/>
                                             </div>
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                                 <input type="text" class="form-field-style1" placeholder="Address" name="address" required/>
@@ -48,9 +52,6 @@
                                             <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                                 <input type="text" class="form-field-style1" placeholder="Post Code" name="postcode" required/>
                                             </div>
-
-
-
                                             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                                 <input type="submit" name="" class="form-field-style1-btn1 m-t-10" value="SIGN Up">
                                             </div>
